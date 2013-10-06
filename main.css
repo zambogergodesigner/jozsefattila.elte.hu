@@ -129,11 +129,11 @@ summary span{border-bottom:1px dotted #aaa;display:inline;}
 .cv p,.szoj p{-moz-hyphens:auto;}
 
 .cv p{font-size:1em;line-height:1.6;padding:0 1.5em 30px;white-space: normal;}
-.cv h1{font-size:2em;padding:.7em 0 1em;text-align:center;text-transform:uppercase;}
+.cv h1{font-size:2em;letter-spacing:0.09em;padding:.7em 0 1em;text-align:center;text-transform:uppercase;}
 
 
 .szoj{padding:0 1.4em;}
-.szoj h1{font-size:1.8em;padding:1.7em 0 1em;text-align:center;text-transform:uppercase;}
+.szoj h1{font-size:1.8em;letter-spacing:0.08em;padding:1.7em 0 1em;text-align:center;text-transform:uppercase;}
 .szoj h2{font-size:1.5em;font-style:italic;margin-top:-0.4em;padding:0 0 1em 0;text-align:center;text-transform:none;}
 .szoj h1+h2{padding:0 0 2em 0;}
 .szoj p {line-height:1.6;font-size:1em;padding: 0 0 1em;white-space:normal;}
@@ -141,8 +141,7 @@ summary span{border-bottom:1px dotted #aaa;display:inline;}
 
 .szoj-lead{padding:0 1.5em;}
 .szoj-lead p{white-space:normal;}
-.szoj-lead p:first-line{font-style:italic;}
-.szoj-lead h2{font-size:1.8em;padding:1.7em 0 1em;text-align:center;}
+.szoj-lead h2{font-size:1.8em;letter-spacing:0.09em;padding:1.7em 0 1em;text-align:center;}
 
 
 
@@ -254,7 +253,6 @@ nav ul{padding-left:0;}
 
 .cv h1{font-size:2.5em;}
 .cv p{padding:0 0 3em 0;}
-.cv p:first-line{font-style:italic;}
 
 .szoj,.szoj-lead{width:990px;}
 .szoj{margin-bottom:3em;}
