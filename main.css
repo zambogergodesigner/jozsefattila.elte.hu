@@ -23,7 +23,7 @@ hr{color:#3b3b3b;height:0;padding:0 0 60px 20px;}
 hr:before{content:"*";}
 
 h1,h2,h3{font-weight:normal;}
-h2{font-size:1.2em;margin:.83em 0;padding:50px 0 5px;text-transform:uppercase;}
+h2{font-size:1.2em;letter-spacing:0.05em;margin:.83em 0;padding:50px 0 5px;text-transform:uppercase;}
 h3{padding:10px 0 20px;font-size:1.17em;}
 
 p{padding:0 0 30px;text-align:left;white-space:nowrap;}
@@ -88,6 +88,9 @@ summary span{border-bottom:1px dotted #aaa;display:inline;}
 .s2{padding-left:96px;}
 .s3{padding-left:30px;}
 .s-ax{padding-left:90px;}
+.s4{margin-left:-10px;}
+.s5{margin-left:-5px;}
+
 
 #petofi-tuze hr:before{content:"***";}
 #keltezetlen-toredekek h3,#toredekes-rogtonzesek-tormeleksorok h3{font-size:16px;text-transform:uppercase;}
@@ -270,6 +273,8 @@ nav ul{padding-left:0;}
 .sorbe-imadsag-megfaradtaknak{padding-left:318px;}
 .ajanlas{padding-left:25px;text-align:center;}
 .s-ax{padding-left:83px;}
+.s4{margin-left:-8px;}
+.s5{margin-left:-4px;}
 #judit-versek-toredekei h3{padding-bottom:0;}
 #alkalmi-vers-a-szocializmus-allasarol .ajanlas{padding-left:25px;}
 #a-kozmosz-eneke .ajanlas{margin-left:-90px;text-align:center;}
