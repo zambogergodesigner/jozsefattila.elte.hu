@@ -90,7 +90,7 @@ summary span{border-bottom:1px dotted #aaa;display:inline;}
 .s-ax{padding-left:90px;}
 .s4{margin-left:-10px;}
 .s5{margin-left:-5px;}
-
+.ls1{letter-spacing:0.05em;}
 
 #petofi-tuze hr:before{content:"***";}
 #keltezetlen-toredekek h3,#toredekes-rogtonzesek-tormeleksorok h3{font-size:16px;text-transform:uppercase;}
@@ -230,8 +230,9 @@ nav p{padding:1em 0;}
 body{text-align:center;}
 p{font-size:19px;text-align:left;padding:0 0 30px 120px;}
 article{padding-left:0;}
-h2{font-size:23px;padding:100px 0 35px 25px;}
-h3{padding:10px 0 30px 25px;}
+h2{font-size:23px;padding:100px 0 15px 25px;}
+h3{padding:15px 0 20px 25px;}
+article h3:first-of-type{padding-top:5px;}
 small{font-size:16px;}
 
 header h1{margin-top:-.15em;}
@@ -275,7 +276,6 @@ nav ul{padding-left:0;}
 .s5{margin-left:-4px;}
 #judit-versek-toredekei h3{padding-bottom:0;}
 #alkalmi-vers-a-szocializmus-allasarol .ajanlas{padding-left:25px;}
-#a-kozmosz-eneke .ajanlas{margin-left:-90px;text-align:center;}
 #oda .ajanlas{margin-left:-80px;}
 #harom-vandor-epilog{padding-right:80px;}
 
@@ -422,7 +422,6 @@ nav ul{padding-left:0;}
 #az-oroszlan-idezese p,
 #bevezeto p,
 #o-europa-hany-redo p,
-#tedd-a-kezed p,
 #szappanosviz p,
 #divanyon-fekszem p,
 #falu p,
@@ -450,10 +449,12 @@ nav ul{padding-left:0;}
 #epigramma p,
 #nor-coc p,
 #viszem-a-foldem p,
+#ringato p,
 #csak-most p{padding-left:50px;}
 
 #csokkeres-tavasszal p,
 #nyuzsog-a-boldogsag p,
+#tedd-a-kezed p,
 #ha-a-hold-sut p{padding-left:55px;}
 
 #bolyongok p,
@@ -500,7 +501,6 @@ nav ul{padding-left:0;}
 #istenem p,
 #luca p,
 #ket-vers p,
-#ringato p,
 #gyasz-es-patyolat p,
 #gyongy p,
 #pernyetancra p,
@@ -523,7 +523,6 @@ nav ul{padding-left:0;}
 #az-arnyekok p,
 #ha-nem-szoritsz p,
 #karoval-jottel p,
-#a-tavol-uj-s-uj-egeket-szor-valt p,
 #proletardal-valt p,
 #medaliak-valt p,
 #kinos-szogletes-mulasom-valt p,
@@ -685,7 +684,6 @@ nav ul{padding-left:0;}
 #fiatal-asszonyok-eneke p,
 #a-bor-alatt-a-halovany-arnyek p,
 #ket-vazlat p,
-#aldalak-buval-vigalommal p,
 #toszunnyado p,
 #tudtam-en p,
 #piros-hold-korul p,
@@ -718,13 +716,15 @@ nav ul{padding-left:0;}
 #hazam-1-7 p,
 #csak-az-olvassa p,
 #egy-koltore-teged-szeretnek p,
-#talan-eltunok-hirtelen p,
 #ombarge-palot-sous-la-peau-valt p,
 #vigasztald-meg-valt p,
 #a-multkor-szerda-este p,
 #ringenlatz-morgenstern-nepdal p,
 #vasarhelyrol-diszno-jo p,
-#a-boldogsag-nyitott-konyv p{padding-left:80px;}
+#a-boldogsag-nyitott-konyv p,
+#tavaszi-enek p,
+#remenytelenul p,
+#balga-kolto p{padding-left:80px;}
 
 #tavol-zongora-mellett p,
 #ugy-e-pajtas p,
@@ -814,12 +814,8 @@ nav ul{padding-left:0;}
 #allegorie p,
 #az-uj-honorhoz p,
 #a-royalban-muzsika p,
+#a-tavol-uj-s-uj-egeket-szor-valt p,
 #sportirodalom p{padding-left:90px;}
-
-#tavaszi-enek p,
-#koltonk-es-kora p,
-#remenytelenul p,
-#balga-kolto p{padding-left:95px;}
 
 #utrakeszseg p,
 #munkashalal p,
@@ -854,12 +850,15 @@ nav ul{padding-left:0;}
 #a-tokesek-hasznarol-valt p,
 #kiknek-adtam-a-boldogot-valt p,
 #esik-eso-magyar-foldre p,
+#talan-eltunok-hirtelen p,
+#aldalak-buval-vigalommal p,
 #ezen-ujabb-kis-magyarnak p{padding-left:100px;}
 
 #poganyos-hitvallas-magyarul p{padding-left:104px;}
 
 #thomas-mann-udvozlese p,
-#lanyszepseg-dicserete-1-2 p{padding-left:105px;}
+#lanyszepseg-dicserete-1-2 p,
+#koltonk-es-kora p{padding-left:105px;}
 
 #lazado-krisztus p,
 #furcsa-fohasz-a-sinek-kozott p,
@@ -885,11 +884,13 @@ nav ul{padding-left:0;}
 #ime-hat-megleltem-hazamat p,
 #vagyok-kinek-kell-legyen-kedve-valt p,
 #azt-olvastam-hogy-perli-a-nepet p,
+#tudod-hogy-nincs-bocsanat p,
 #mivelhogy-oly-szepen-terit-a p{padding-left:110px;}
 
 #a-legutolso-harcos-valt p{padding-left:114px;}
 
-#ki-be-ugral p{padding-left:120px;}
+#ki-be-ugral p,
+#ime-hat-megleltem-hazamat p{padding-left:120px;}
 
 #mikor-a-szeretok-valt p,
 #egy-koltore-sakalt-kialt p,
