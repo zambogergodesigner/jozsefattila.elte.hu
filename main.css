@@ -267,7 +267,8 @@ nav ul{padding-left:0;}
 
 .ill { margin: 20px 0 50px 55px; }
 
-.ev{font-size:3em;padding:1.2em 0 0 .6em;}
+.ev{font-size:3em;margin-bottom:-1.3em;padding:1.2em 0 0 .6em;}
+.val{margin-bottom:-.6em;}
 .kozmosz-int{padding-left:155px;}
 .sorbe-imadsag-megfaradtaknak{padding-left:318px;}
 .ajanlas{padding-left:25px;text-align:center;}
