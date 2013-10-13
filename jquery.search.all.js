@@ -20,7 +20,7 @@ var versek = {
   'osszes.html#a-fergeteg-orman':'A fergetek ormán',
   'osszes.html#a-fust':'A füst',
   'osszes.html#a-gondolkodo-szonettje':'A gondolkodó szonettje',
-  'osszes.html#a-gyermekszemu-elet-tavon':'A gyerekszemű élet-tavon',
+  'osszes.html#a-gyerekszemu-elet-tavon':'A gyerekszemű élet-tavon',
   'osszes.html#a-halalrol':'A halálról',
   'osszes.html#a-hallgatag-gep':'(A hallgatag gép…)',
   'osszes.html#a-harisnyaja-egy-lucsok':'(A harisnyája egy lucsok…)',

@@ -20,7 +20,7 @@ var versek = {
   '1924.html#a-fergeteg-orman':'A fergetek ormán',
   '1922.html#a-fust':'A füst',
   '1924.html#a-gondolkodo-szonettje':'A gondolkodó szonettje',
-  '1922.html#a-gyermekszemu-elet-tavon':'A gyerekszemű élet-tavon',
+  '1922.html#a-gyerekszemu-elet-tavon':'A gyerekszemű élet-tavon',
   '1916-21.html#a-halalrol':'A halálról',
   '1931.html#a-hallgatag-gep':'(A hallgatag gép…)',
   'rogtonzesek.html#a-harisnyaja-egy-lucsok':'(A harisnyája egy lucsok…)',

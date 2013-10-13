@@ -312,7 +312,6 @@ nav ul{padding-left:0;}
 
 #sohaj p,
 #a-jambor-tehen p,
-#a-banat p,
 #a-szemed p,
 #versem-komor p,
 #punkosd-elott p,
@@ -374,27 +373,16 @@ nav ul{padding-left:0;}
 
 #kedves-joco p,
 #egyszeru-vers p,
-#a-gyermekszemu-elet-tavon p,
-#szerelmes-keseru-hazafisag p,
 #arany-kalasztol p,
-#nevnapi-dicseret p,
-#holttest-az-uccan p,
 #hajnali-vers-kedvesemnek p,
-#fiatal-eletek-induloja p,
 #perc p,
-#hymnus-az-elethez p,
 #koldus p,
-#igaz-oszinte-bucsu p,
 #tovabb-en-nem-birom p,
 #ad-sidera p,
 #sacrilegium p,
-#koltoszerelem-teremto-estje p,
 #majusi-enek p,
-#az-orult-hajotorott p,
-#juhasz-gyularol-valo-nota p,
 #uram p,
 #ferfiszoval-2 p,
-#uvegontok p,
 #toredekek-1923 p,
 #ide-ujra-a-szeretet-jon p,
 #nyar-volt p,
@@ -452,11 +440,15 @@ nav ul{padding-left:0;}
 #ringato p,
 #csak-most p{padding-left:50px;}
 
-#csokkeres-tavasszal p,
 #nyuzsog-a-boldogsag p,
 #tedd-a-kezed p,
+#az-orult-hajotorott p,
+#igaz-oszinte-bucsu p,
 #ha-a-hold-sut p{padding-left:55px;}
 
+#uvegontok p,
+#a-banat p,
+#holttest-az-uccan p,
 #bolyongok p,
 #ulunk-egymas-mellett p,
 #egyedul p,
@@ -464,21 +456,14 @@ nav ul{padding-left:0;}
 #nem-tudunk-elni p,
 #lovas-a-temetoben p,
 #varakozas p,
-#nyari-delutan-a-szobaban p,
-#keseru-nekifohaszkodas p,
-#gyongysor p,
-#hymnus-a-borhoz p,
 #aratas-elott p,
 #spleen p,
 #pap-a-templomban p,
 #tel p,
 #versek-vegere p,
-#istenjaras p,
 #tanulmanyfej p,
 #szerelmes-kiszolas p,
 #szerelmes-vers p,
-#ezerfarosznyi-vegzet p,
-#a-legutolso-harcos p,
 #vilag-megokolt-utalata p,
 #o-szoke-csokok-partja p,
 #rog-a-roghoz p,
@@ -537,6 +522,8 @@ nav ul{padding-left:0;}
 #level p,
 #axioma p,
 #latod p,
+#megfaradt-ember p,
+#a-gyerekszemu-elet-tavon p,
 #toredekes-rogtonzesek-tormeleksorok p{padding-left:60px;}
 
 #szep-csondesen-aludj p,
@@ -544,22 +531,27 @@ nav ul{padding-left:0;}
 #tancba-fognak p,
 #gyonyorut-lattam p,
 #hull-a-level p,
+#nyari-delutan-a-szobaban p,
+#csokkeres-tavasszal p,
 #mancinak-es-miskanak p{padding-left:65px;}
 
+#juhasz-gyularol-valo-nota p,
+#koltoszerelem-teremto-estje p,
+#hymnus-az-elethez p,
+#fiatal-eletek-induloja p,
+#nevnapi-dicseret p,
+#keseru-nekifohaszkodas p,
 #vegtelen-ota p,
 #hozza p,
 #keresek-valakit p,
-#vagymagam-a-hold-alatt p,
 #az-orok-elmulas p,
 #ajandek p,
 #csend p,
 #nagy-ajandekok-tora p,
 #kontosok p,
 #alomban-enyem-vagy p,
-#nem-nem-soha p,
 #falak p,
 #varlak p,
-#juhasz-gyulahoz p,
 #leanykero-enek p,
 #a-fust p,
 #rovid-oda-a-kelo-naphoz p,
@@ -567,19 +559,12 @@ nav ul{padding-left:0;}
 #napszonett p,
 #o-zordon-szepseg p,
 #udvozles p,
-#oszi-alkonyat p,
 #bus-enekhivas p,
-#a-batrak p,
 #eggyeolelodes-vagya p,
-#tavoli-enek p,
 #ejjel p,
-#ady-endre-helyett-mondom p,
-#ember-is-magyar-is-magam-is p,
 #huseg p,
-#ha-nem-veszik-eszben p,
 #hajnalvaras p,
 #mint-loholo-bolond-elott p,
-#megfaradt-ember p,
 #lazado-szentek p,
 #kakuk-marci p,
 #gyemant p,
@@ -645,6 +630,7 @@ nav ul{padding-left:0;}
 #pauvre-plaint-chant-mechant p,
 #kinalgato p,
 #eve-25 p,
+#szerelmes-keseru-hazafisag p,
 #kedves-zoltan p{padding-left:70px;}
 
 #elkoszono-szelid-szavak p{padding-left:74px;}
@@ -657,16 +643,17 @@ nav ul{padding-left:0;}
 #a-kovezeten p,
 #modern-szonett p{padding-left:75px;}
 
+#a-legutolso-harcos p,
+#ezerfarosznyi-vegzet p,
+#hymnus-a-borhoz p,
 #amiota p,
 #a-halalrol p,
 #mamor p,
 #tengerhez p,
 #a-szolnoki-hidon p,
 #bus-magyar-eneke p,
-#fohaszkodo-enek p,
 #aratasban p,
 #osapam p,
-#magyarok-1-2 p,
 #kalozkapitany-induloja p,
 #a-betuk-sivatagaban p,
 #harc-a-bekessegert p,
@@ -724,6 +711,7 @@ nav ul{padding-left:0;}
 #a-boldogsag-nyitott-konyv p,
 #tavaszi-enek p,
 #remenytelenul p,
+#oszi-alkonyat p,
 #balga-kolto p{padding-left:80px;}
 
 #tavol-zongora-mellett p,
@@ -731,7 +719,13 @@ nav ul{padding-left:0;}
 #koldusok-1-3 p,
 #szeretok-lazadasa p{padding-left:85px;}
 
-#homaly-borult-az-erdore p,
+#ha-nem-veszik-eszben p,
+#ember-is-magyar-is-magam-is p,
+#tavoli-enek p,
+#a-batrak p,
+#istenjaras p,
+#gyongysor p,
+#juhasz-gyulahoz p,
 #a-sziv-s-a-szem p,
 #csokolj-csokolj p,
 #lelekszirteken p,
@@ -739,7 +733,6 @@ nav ul{padding-left:0;}
 #nezem-a-lampat p,
 #szerelem-ez p,
 #csondes-esteli-zsoltar p,
-#predikacio p,
 #szeged-alatt p,
 #a-szent-jobb-unnepen p,
 #baal p,
@@ -749,7 +742,6 @@ nav ul{padding-left:0;}
 #proletarok p,
 #teged-siratlak p,
 #onarckep p,
-#tavaszi-labdajatek p,
 #el-innen p,
 #a-lovak p,
 #miert-mondottal-rosszat-nekem p,
@@ -815,6 +807,8 @@ nav ul{padding-left:0;}
 #az-uj-honorhoz p,
 #a-royalban-muzsika p,
 #a-tavol-uj-s-uj-egeket-szor-valt p,
+#vagymagam-a-hold-alatt p,
+#ady-endre-helyett-mondom p,
 #sportirodalom p{padding-left:90px;}
 
 #utrakeszseg p,
@@ -852,12 +846,14 @@ nav ul{padding-left:0;}
 #esik-eso-magyar-foldre p,
 #talan-eltunok-hirtelen p,
 #aldalak-buval-vigalommal p,
+#nem-nem-soha p,
+#fohaszkodo-enek p,
+#predikacio p,
 #ezen-ujabb-kis-magyarnak p{padding-left:100px;}
-
-#poganyos-hitvallas-magyarul p{padding-left:104px;}
 
 #thomas-mann-udvozlese p,
 #lanyszepseg-dicserete-1-2 p,
+#homaly-borult-az-erdore p,
 #koltonk-es-kora p{padding-left:105px;}
 
 #lazado-krisztus p,
@@ -890,17 +886,21 @@ nav ul{padding-left:0;}
 #a-legutolso-harcos-valt p{padding-left:114px;}
 
 #ki-be-ugral p,
+#osszetort-szivem p,
+#poganyos-hitvallas-magyarul p,
+#tavaszi-labdajatek p,
 #ime-hat-megleltem-hazamat p{padding-left:120px;}
 
+#szeretnem-ha-vadalmafa-lennek p,
 #mikor-a-szeretok-valt p,
 #egy-koltore-sakalt-kialt p,
 #szocialistak p,
 #miota-elmentel p,
+#magyarok-1-2 p,
 #asszonyvaras-asszonyszobor-mellett p{padding-left:130px;}
 
 #ma-nevnapja-van p,
-#toredekek-2-1937 p,
-#osszetort-szivem p{padding-left:140px;}
+#toredekek-2-1937 p{padding-left:140px;}
 
 #harom-vandor p,
 #toredekek-1934 p,
