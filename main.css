@@ -90,6 +90,7 @@ summary span{border-bottom:1px dotted #aaa;display:inline;}
 .s-ax{padding-left:90px;}
 .s4{margin-left:-10px;}
 .s5{margin-left:-5px;}
+.s6{margin-left:-20px;}
 .ls1{letter-spacing:0.05em;}
 
 #petofi-tuze hr:before{content:"***";}
@@ -274,6 +275,7 @@ nav ul{padding-left:0;}
 .s-ax{padding-left:83px;}
 .s4{margin-left:-8px;}
 .s5{margin-left:-4px;}
+.s6{margin-left:-18px;}
 #judit-versek-toredekei h3{padding-bottom:0;}
 #alkalmi-vers-a-szocializmus-allasarol .ajanlas{padding-left:25px;}
 #oda .ajanlas{margin-left:-80px;}
@@ -281,12 +283,9 @@ nav ul{padding-left:0;}
 
 
 
-#szoke-hajam p,
 #anyam-a-mosasban-gyaszkoszoru p{padding-left:20px;}
 
 #templom-hulla-rozsa p,
-#muveszet-az-emberek-kozott p,
-#csudalkozunk-az-eleten p,
 #a-szerelmes-szonettje p,
 #lanyszepseg-dicserete p,
 #hajnalban-kel-fol-mint-a-pekek p,
@@ -307,16 +306,15 @@ nav ul{padding-left:0;}
 #a-fakon p{padding-left:30px;}
 
 #kep-a-tukorben p,
-#egy-asszony-s-egy-leany p,
-#szelid-bucsuzo-asszony p{padding-left:35px;}
+#egy-asszony-s-egy-leany p{padding-left:35px;}
 
+#szoke-hajam p,
 #sohaj p,
 #a-jambor-tehen p,
 #a-szemed p,
 #versem-komor p,
 #punkosd-elott p,
 #szeretok p,
-#rokkantak p,
 #tenyeremre-tettem p,
 #ekrazittomeg p,
 #esti-felhokon p,
@@ -364,13 +362,13 @@ nav ul{padding-left:0;}
 #braun-evanak p,
 #hallom-hogy-az-adam p,
 #eva-vigyazz p,
-#tavasz-van-gyonyoru p,
 #rossz-volt-elszeledt-szivembol p{padding-left:40px;}
 
 #tiszta-szivvel p,
 #kiszombori-dal p,
 #zuzmara p{padding-left:45px;}
 
+#csudalkozunk-az-eleten p,
 #kedves-joco p,
 #egyszeru-vers p,
 #arany-kalasztol p,
@@ -384,17 +382,8 @@ nav ul{padding-left:0;}
 #uram p,
 #ferfiszoval-2 p,
 #toredekek-1923 p,
-#ide-ujra-a-szeretet-jon p,
-#nyar-volt p,
-#nyolcesztendos-lanyok p,
-#jonal-jobb p,
-#het-napja p,
-#szomorufuz p,
 #szegenyember-balladaja p,
-#a-szamokrol p,
 #bosszusag p,
-#este-volt-s-a-borunk-osszeert p,
-#a-vilag-megteremtese p,
 #hajon-megyek-pestre p,
 #a-kutya p,
 #egyszeru-ez p,
@@ -436,16 +425,24 @@ nav ul{padding-left:0;}
 #de-feu p,
 #epigramma p,
 #nor-coc p,
+#muveszet-az-emberek-kozott p,
 #viszem-a-foldem p,
+#szelid-bucsuzo-asszony p,
 #ringato p,
 #csak-most p{padding-left:50px;}
 
 #nyuzsog-a-boldogsag p,
 #tedd-a-kezed p,
 #az-orult-hajotorott p,
+#a-vilag-megteremtese p,
 #igaz-oszinte-bucsu p,
 #ha-a-hold-sut p{padding-left:55px;}
 
+#a-szamokrol p,
+#este-volt-s-a-borunk-osszeert p,
+#tavasz-van-gyonyoru p,
+#nyolcesztendos-lanyok p,
+#ide-ujra-a-szeretet-jon p,
 #uvegontok p,
 #a-banat p,
 #holttest-az-uccan p,
@@ -467,8 +464,6 @@ nav ul{padding-left:0;}
 #vilag-megokolt-utalata p,
 #o-szoke-csokok-partja p,
 #rog-a-roghoz p,
-#ki-verne-fol-lelkunkben-a-lelket p,
-#szep-nyari-este-van p,
 #a-fergeteg-orman p,
 #erik-a-feny p,
 #en-dobtam p,
@@ -535,6 +530,8 @@ nav ul{padding-left:0;}
 #csokkeres-tavasszal p,
 #mancinak-es-miskanak p{padding-left:65px;}
 
+#szomorufuz p,
+#nyar-volt p,
 #juhasz-gyularol-valo-nota p,
 #koltoszerelem-teremto-estje p,
 #hymnus-az-elethez p,
@@ -565,8 +562,6 @@ nav ul{padding-left:0;}
 #huseg p,
 #hajnalvaras p,
 #mint-loholo-bolond-elott p,
-#lazado-szentek p,
-#kakuk-marci p,
 #gyemant p,
 #szolt-az-ember p,
 #a-gondolkodo-szonettje p,
@@ -643,6 +638,7 @@ nav ul{padding-left:0;}
 #a-kovezeten p,
 #modern-szonett p{padding-left:75px;}
 
+#szep-nyari-este-van p,
 #a-legutolso-harcos p,
 #ezerfarosznyi-vegzet p,
 #hymnus-a-borhoz p,
@@ -658,10 +654,7 @@ nav ul{padding-left:0;}
 #a-betuk-sivatagaban p,
 #harc-a-bekessegert p,
 #ferfiszoval-1-2 p,
-#es-keressuk-az-igazsagot p,
-#villamok-szeretoje p,
 #no-a-tukor-elott p,
-#ti-jok-vagytok-mindannyian p,
 #erzitek-e p,
 #figyel-a-kancsal p,
 #oly-friss p,
@@ -717,8 +710,11 @@ nav ul{padding-left:0;}
 #tavol-zongora-mellett p,
 #ugy-e-pajtas p,
 #koldusok-1-3 p,
+#lazado-szentek p,
 #szeretok-lazadasa p{padding-left:85px;}
 
+#ki-verne-fol-lelkunkben-a-lelket p,
+#jonal-jobb p,
 #ha-nem-veszik-eszben p,
 #ember-is-magyar-is-magam-is p,
 #tavoli-enek p,
@@ -744,12 +740,8 @@ nav ul{padding-left:0;}
 #onarckep p,
 #el-innen p,
 #a-lovak p,
-#miert-mondottal-rosszat-nekem p,
 #kedvesem p,
-#komoly-lett-mar p,
-#fordulo p,
 #tuntetes p,
-#jott-megfogott-es-athajitott p,
 #nekem-mindegy p,
 #mikor-az-uccan-atment-a-kedves p,
 #tuzek-eneke p,
@@ -809,6 +801,8 @@ nav ul{padding-left:0;}
 #a-tavol-uj-s-uj-egeket-szor-valt p,
 #vagymagam-a-hold-alatt p,
 #ady-endre-helyett-mondom p,
+#ti-jok-vagytok-mindannyian p,
+#es-keressuk-az-igazsagot p,
 #sportirodalom p{padding-left:90px;}
 
 #utrakeszseg p,
@@ -817,12 +811,6 @@ nav ul{padding-left:0;}
 #utrahivas p,
 #alkohol p,
 #karacsony p,
-#lopok-kozott-szegenyember p,
-#igaz-ember p,
-#mert-hagytal-el-hogyha-kivansz p,
-#magyarok p,
-#most-a-teremtes-kezdeten-vagyunk p,
-#aki-szegeny-az-a-legszegenyebb p,
 #muterem p,
 #mindig-jotanacsot-sziszegnek p,
 #munkasok-korusa p,
@@ -835,6 +823,7 @@ nav ul{padding-left:0;}
 #tomeg p,
 #munkasok p,
 #fak p,
+#jott-megfogott-es-athajitott p,
 #tehervonatok-tolatnak p,
 #temetes-utan p,
 #legy-ostoba p,
@@ -849,6 +838,11 @@ nav ul{padding-left:0;}
 #nem-nem-soha p,
 #fohaszkodo-enek p,
 #predikacio p,
+#villamok-szeretoje p,
+#magyarok p,
+#kakuk-marci p,
+#fordulo p,
+#komoly-lett-mar p,
 #ezen-ujabb-kis-magyarnak p{padding-left:100px;}
 
 #thomas-mann-udvozlese p,
@@ -859,7 +853,6 @@ nav ul{padding-left:0;}
 #lazado-krisztus p,
 #furcsa-fohasz-a-sinek-kozott p,
 #nem-en-kialtok p,
-#milyen-jo-lenne-nem-utni-vissza p,
 #imadsag-megfaradtaknak p,
 #itt-egy-fa-ott-egy-fa p,
 #magyarorszag-messzire-van p,
@@ -881,21 +874,18 @@ nav ul{padding-left:0;}
 #vagyok-kinek-kell-legyen-kedve-valt p,
 #azt-olvastam-hogy-perli-a-nepet p,
 #tudod-hogy-nincs-bocsanat p,
+#miert-mondottal-rosszat-nekem p,
+#het-napja p,
 #mivelhogy-oly-szepen-terit-a p{padding-left:110px;}
 
 #a-legutolso-harcos-valt p{padding-left:114px;}
-
-#ki-be-ugral p,
-#osszetort-szivem p,
-#poganyos-hitvallas-magyarul p,
-#tavaszi-labdajatek p,
-#ime-hat-megleltem-hazamat p{padding-left:120px;}
 
 #szeretnem-ha-vadalmafa-lennek p,
 #mikor-a-szeretok-valt p,
 #egy-koltore-sakalt-kialt p,
 #szocialistak p,
 #miota-elmentel p,
+#igaz-ember p,
 #magyarok-1-2 p,
 #asszonyvaras-asszonyszobor-mellett p{padding-left:130px;}
 
