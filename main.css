@@ -227,7 +227,7 @@ nav p{padding:1em 0;}
 
 @media screen and (min-width: 80.5em){
 
-body{text-align:center;}
+body{text-align:center;text-rendering:optimizeLegibility;}
 p{font-size:19px;text-align:left;padding:0 0 30px 120px;}
 article{padding-left:0;}
 h2{font-size:23px;padding:100px 0 15px 25px;}
