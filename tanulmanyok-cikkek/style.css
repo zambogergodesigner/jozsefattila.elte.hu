@@ -1,28 +1,75 @@
-hr{border:0;margin:0;padding:0;}
+::-moz-selection{background:#d5d2d4;text-shadow:none;}
+::selection{background:#d5d2d4;text-shadow:none;}
 
-html {
-  padding: 0 20px;
-  max-width: 680px;
+article,body,details,h1,h2,h3,header,html,hr,li,nav,ol,p,section,summary,sup,ul{border:0;margin:0;padding:0;}
+
+article,details,header,main,nav,section,summary{display:block;}
+
+html{font-size:100%;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+
+
+
+body {
   background: #fdfdfa;
-  margin: auto;
   color: #3b3b3b;
-  font:21px/1.55 Georgia,Times,'Times New Roman',serif;
+  font-family: Georgia,Times,'Times New Roman',serif;
+  margin: 0 auto 60px;
+  padding: 0 20px;
+  max-width: 660px;
 }
 
-p{
-  -moz-hyphens:auto;
+.proza {
+  margin-top: 40px;
+  font-size: 18px;
+  line-height: 1.55;
 }
+
 article {
   padding-bottom: 60px;
 }
-footer{
-  font-size: 16px;
-}
+
 h2 {
   font-weight: normal;
   font-size: 2.31em;
-  margin-bottom: -5px;
+  padding-top: 30px;
+  margin-bottom: 10px;
   line-height: 1.25;
+}
+
+section h2, h3 {
+  font-weight: normal;
+  font-size: 1.4em;
+  line-height: 1.4;
+  margin: 10px 0;
+}
+
+h4 {
+  font-size: 1.2em;
+  font-weight: normal;
+  margin: 10px 0;
+}
+
+section header h2+p {
+  font-size: 1.3em;
+}
+
+header p {
+  font-size: 1.6em;
+  margin-top: -5px;
+  line-height: 1.4;
+}
+
+header p+p {
+  font-size: 1.4em;
+}
+
+p {
+  -moz-hyphens:auto;
+  padding-bottom: 25px;
+}
+
+footer {
+  font-size: 16px;
 }
 
 hr{color:#3b3b3b;height:0;padding:0 0 60px 0; text-align: center; font-size: 1.5em;}
@@ -30,5 +77,41 @@ hr:before{content:"*";}
 
 sup {
   color: #999;
+  cursor: pointer;
   font-size: 16px;
+}
+
+span {
+  font-style: italic;
+}
+
+.utem {
+  font-style: normal;
+  display: inline-block;
+  text-align: center;
+  border-bottom: 1px solid #3b3b3b;
+  width: 12px;
+  height: 22px;
+}
+
+.poem {
+  padding-left: 60px;
+  white-space: nowrap;
+}
+
+.poem-title {
+  text-align: right;
+}
+
+@media screen and (min-width: 80.5em) {
+
+  .proza {
+    font-size: 21px;
+  }
+
+  .utem {
+    width: 15px;
+    height: 25px;
+  }
+
 }
