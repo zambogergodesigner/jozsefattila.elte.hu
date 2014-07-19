@@ -103,6 +103,20 @@ span {
   text-align: right;
 }
 
+.s {
+  font-style: normal;
+  margin-left: -8px;
+}
+
+.cap, abbr {
+  font-style: normal;
+  letter-spacing:0.06em;
+}
+
+#uj-szocializmust .cap {
+  letter-spacing:0.08em;
+}
+
 @media screen and (min-width: 80.5em) {
 
   .proza {
@@ -113,5 +127,9 @@ span {
     width: 15px;
     height: 25px;
   }
+
+  .s {
+    margin-left: -9px;
+}
 
 }
