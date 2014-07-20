@@ -83,6 +83,10 @@ sup {
   font-size: 16px;
 }
 
+sup::-moz-selection { color: #c75f1a; }
+sup::selection { color: #c75f1a; }
+
+
 span {
   font-style: italic;
 }
