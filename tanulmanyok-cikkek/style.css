@@ -1,6 +1,8 @@
 ::-moz-selection{background:#d5d2d4;text-shadow:none;}
 ::selection{background:#d5d2d4;text-shadow:none;}
 
+
+
 article,body,details,h1,h2,h3,header,html,hr,li,nav,ol,p,section,summary,sup,ul{border:0;margin:0;padding:0;}
 
 article,details,header,main,nav,section,summary{display:block;}
