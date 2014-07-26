@@ -20,6 +20,10 @@ body {
   max-width: 660px;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .proza {
   margin-top: 40px;
   font-size: 18px;
