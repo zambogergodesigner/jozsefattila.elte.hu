@@ -83,6 +83,10 @@ sup {
   font-size: 16px;
 }
 
+.tooltipster-default sup {
+  color: #ededea;;
+}
+
 sup::-moz-selection { color: #c75f1a; }
 sup::selection { color: #c75f1a; }
 
@@ -117,6 +121,12 @@ span {
 .cap, abbr {
   font-style: normal;
   letter-spacing:0.06em;
+}
+
+abbr, .s-cap {
+  font-style: normal;
+  letter-spacing:0.05em;
+  font-variant: small-caps;
 }
 
 #uj-szocializmust .cap {
