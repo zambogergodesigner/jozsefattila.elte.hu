@@ -49,7 +49,7 @@ nav p{font-size:1.3em;font-style:italic;}
 
 nav ol,nav ul,.abc-mutato ol,.form{list-style:none;}
 nav ol{padding-left:1.5em;}
-nav ul{margin-top:-.8em;}
+nav>ul{margin-top:-.8em;}
 nav ul li{padding:.1em 0;}
 ol ol li{color:#999;font-size:.85em;padding:.3em 0;}
 
@@ -64,6 +64,8 @@ summary span{border-bottom:1px dotted #aaa;display:inline;}
 .abc-mutato summary,.evek-mutato summary{font-size:1.2em;padding:.05em;}
 
 .cv-mutato,.jegyz-mutato{color:#223849;}
+
+.irasok-idorend summary{font-size:.85em;}
 
 
 
@@ -240,7 +242,7 @@ header h1{margin-top:-.15em;}
 nav{text-align:left;}
 nav p{padding:2.7em 0 1em;}
 nav{margin:0;margin-left:235px;padding:0;width:430px;}
-nav ul{padding-left:0;}
+nav ul{padding-left:.7em;white-space:nowrap;}
 
 #talalat { text-align: left; }
 #talalat li a { padding: 10px; }
