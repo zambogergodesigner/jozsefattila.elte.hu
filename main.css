@@ -32,12 +32,12 @@ article{font-size: 1.3em;padding-left: 1.5em;}
 
 
 h1 a{border-bottom:none;}
-h1 a:visited{color:#3c5d7a;}
-h1 a:hover{text-shadow:0 1px 1px #999;color:#3c5d7a;}
+h1 a:visited{color:#333;}
+h1 a:hover{color:#333;text-shadow:0 1px 1px #999;}
 h1 a:active{ position: static; }
 
-header h1{color:#3c5d7a;font-size:2em;font-style:italic;padding:.5em 0 .9em 0;text-align:center;text-shadow:0 1px 1px #999;}
-h1 span{display: block;margin-top:-.2em;}
+header h1{color:#333;font-size:2em;font-style:italic;padding:.5em 0 .9em 0;text-align:center;text-shadow:0 1px 1px #999;}
+h1 span{display:block;margin-top:-.2em;line-height:1.12em;}
 
 header img{border-radius:50%;box-shadow:0 1px 5px 1px #ccc;display:block;height:291px;width:207px;margin:3em auto 1em;}
 header img:hover{-webkit-filter:sepia(0.1);}
