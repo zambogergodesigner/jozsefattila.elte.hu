@@ -36,11 +36,12 @@ h1 a:visited{color:#333;}
 h1 a:hover{color:#333;text-shadow:0 1px 1px #999;}
 h1 a:active{ position: static; }
 
-header h1{color:#333;font-size:2em;font-style:italic;padding:.5em 0 .9em 0;text-align:center;text-shadow:0 1px 1px #999;}
-h1 span{display:block;margin-top:-.2em;line-height:1.12em;}
+header h1{color:#333;font-size:2em;font-style:italic;padding:.5em 0 1.5em 0;text-align:center;text-shadow:0 1px 1px #999;}
+h1 span{display:block;margin-top:-.2em;line-height:1.12em; font-size: .7em;}
 
-header img{border-radius:50%;box-shadow:0 1px 5px 1px #ccc;display:block;height:291px;width:207px;margin:3em auto 1em;}
-header img:hover{-webkit-filter:sepia(0.1);}
+header img{display:block;margin:0 auto;height: 156px; width: 347px;}
+
+.header-bg {display: none;}
 
 
 
@@ -49,6 +50,7 @@ nav p{font-size:1.3em;font-style:italic;}
 
 nav ol,nav ul,.abc-mutato ol,.form{list-style:none;}
 nav ol{padding-left:1.5em;}
+nav ul{padding-left:.5em;}
 nav>ul{margin-top:-.8em;}
 nav ul li{padding:.1em 0;}
 ol ol li{color:#999;font-size:.85em;padding:.3em 0;}
@@ -166,16 +168,23 @@ header h1{font-size:2.5em;}
 
 header h1{font-size:3.5em;}
 nav ul{padding-left:1em;}
+header img{height: 213px; width: 472px;}
+
+}
+
+@media screen and (min-width:30em){
+
+header h1{font-size:2.8em; padding: 1em 1em 1.2em;}
+header img{height: 271px; width: 600px; position: relative; z-index: 1;}
+.header-bg {display: block; position: absolute; top: 0px; background: #000; width: 100%; height: 271px; z-index: 0;}
 
 }
 
 
-
 @media screen and (min-width:36em){
 
-h1 span{display:inline;}
-header h1{font-size:2.5em; padding-bottom: 1.2em; }
-header img{height:194px;width:138px;}
+h1 span{display:inline; font-size: 1em;}
+header h1{ padding-bottom: 1.2em; }
 
 .top {bottom:.5em;display:inherit;font-size:1.2em;opacity:.3;position:fixed;right:1em;-webkit-transition:all .2s ease;transition:all .2s ease;}
 .top:hover{opacity:1;}
@@ -196,7 +205,6 @@ header img{height:194px;width:138px;}
 @media screen and (min-width:49.5em){
 
 header h1{font-size:3.5em;margin-top:-.2em; padding-bottom: .7em;}
-header img{height:233px;width:166px;}
 
 
 .form{margin:-1.3em auto 3.5em;width:620px;}
@@ -237,7 +245,7 @@ h3{padding:15px 0 20px 25px;}
 article h3:first-of-type{padding-top:5px;}
 small{font-size:16px;}
 
-header h1{margin-top:-.15em;}
+header h1{margin-top:-.15em; padding-top: 1.2em;}
 
 nav{text-align:left;}
 nav p{padding:2.7em 0 1em;}
