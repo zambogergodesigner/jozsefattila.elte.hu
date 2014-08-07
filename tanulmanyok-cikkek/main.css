@@ -75,6 +75,8 @@ summary span{border-bottom:1px dotted #aaa;display:inline;}
 
 .top{display:none;}
 
+.ev{font-size:3em;text-align: center; margin: 1em 0 .6em; line-height: 1.1em;}
+
 @media screen and (max-width:23em){
 
 header h1{font-size:2.5em;}
@@ -148,6 +150,7 @@ nav ul{padding-left:.7em;white-space:nowrap;}
 #talalat li a { padding: 10px; }
 
 .proza-header { text-align: center;}
+
 
 }
 
