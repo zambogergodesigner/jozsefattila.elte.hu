@@ -23,7 +23,7 @@ a:hover,a:active{outline:0;}
 
 h1{font-weight:normal;}
 
-h1 a{border-bottom:none;}
+h1 a{border-bottom:none;color: #000;}
 h1 a:visited{color:#333;}
 h1 a:hover{color:#333;text-shadow:0 1px 1px #999;}
 h1 a:active{ position: static; }
@@ -75,7 +75,7 @@ summary span{border-bottom:1px dotted #aaa;display:inline;}
 
 .top{display:none;}
 
-.ev{font-size:3em;text-align: center; margin: 1em 0 .6em; line-height: 1.1em;}
+.ev{font-size:3em; margin: 1em 0 .6em; line-height: 1.1em;}
 
 @media screen and (max-width:23em){
 
@@ -200,6 +200,7 @@ article h2 {
   padding-top: 30px;
   margin-bottom: 10px;
   line-height: 1.25;
+  letter-spacing: 0.04em;
 }
 
 section h2, h3 {
