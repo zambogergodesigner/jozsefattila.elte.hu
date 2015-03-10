@@ -1,44 +1,56 @@
+/* ==========================================================================
+   Text Selection & Reset
+   ========================================================================== */
+
 ::-moz-selection { background: #d5d2d4; text-shadow: none; }
 ::selection { background: #d5d2d4; text-shadow: none; }
 
 article, body, details, h1, h2, h3, header, html, hr, li, nav, ol, p, summary, ul { border: 0; margin: 0; padding: 0; }
 article, details, header, main, nav, summary { display: block; }
 
-html{font-size:100%;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+
+
+
+
+/* ==========================================================================
+   Basics
+   ========================================================================== */
+
+html { font-size: 100%; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; }
+body { background: #fdfdfa; color: #3b3b3b; font: 1em/1.4 Georgia, Times, Times New Roman, serif; padding-bottom: 60px; }
+
+a { border-bottom: 1px dotted #aaa; color: #3c5d7a; text-decoration: none; -webkit-transition: all .2s ease; transition: all .2s ease; }
+a:visited { color: #000; }
+a:hover, a:focus { color: #000; outline: thin dotted; }
+a:active { color: #54a2de; position: relative; top: 1px; }
+
+a:hover, a:active { outline: 0; }
+
+small { font-style: italic; font-size: .75em; }
+hr { color: #3b3b3b; height: 0; padding: 0 0 60px 20px; }
+hr:before { content: "*"; }
+
+h1, h2, h3 { font-weight: normal; }
+h2 { font-size: 1.2em; letter-spacing: 0.05em; margin: .83em 0; padding: 50px 0 5px; text-transform: uppercase; white-space: nowrap; }
+h3 { padding: 10px 0 20px; font-size: 1.17em; }
+
+article { font-size: 1.3em; padding-left: 1.5em; }
+.vers p { white-space: nowrap; }
 
 
 
 
 
-body{background:#fdfdfa;color:#3b3b3b;font:1em/1.4 Georgia,Times,'Times New Roman',serif;padding-bottom:60px;}
+/* ==========================================================================
+   Header Logo & Search Form
+   ========================================================================== */
 
-a{border-bottom:1px dotted #aaa;color:#3c5d7a;text-decoration:none;-webkit-transition:all .2s ease;transition:all .2s ease;}
-a:visited{color:#000;}
-a:hover,a:focus{color:#000;outline:thin dotted;}
-a:active{color:#54a2de;position:relative;top:1px;}
+header h1 { text-align: center; padding-top: 1em; margin-bottom: -.2em; }
 
-a:hover,a:active{outline:0;}
+.form { padding: 0; margin: -1.3em auto 1.5em; width: 90%; }
+.form label { border: 0; clip: rect(0 0 0 0); height: 1px; width: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; }
 
-small{font-style:italic;font-size:.75em;}
-hr{color:#3b3b3b;height:0;padding:0 0 60px 20px;}
-hr:before{content:"*";}
-
-h1,h2,h3{font-weight:normal;}
-h2{font-size:1.2em;letter-spacing:0.05em;margin:.83em 0;padding:50px 0 5px;text-transform:uppercase;white-space:nowrap;}
-h3{padding:10px 0 20px;font-size:1.17em;}
-
-article{font-size:1.3em;padding-left:1.5em;}
-.vers p{white-space:nowrap;}
-
-
-
-
-
-header h1{text-align:center;margin:1em 0 -.2em;}
-
-.form{padding:0;margin:-1.3em auto 1.5em;width:90%;}
-.form  label{border:0;clip:rect(0 0 0 0);height:1px;width:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;}
-#verskeres{border:1px solid #ccc;border-radius:3px;box-shadow:inset 0 0 3px #ccc;display:block;font:1.2em Georgia,Times,'Times New Roman',serif;font-style:italic;margin:auto;padding:.3em .2em;width:90%;height:50px;}
+#verskeres { border: 1px solid #ccc; border-radius: 3px; box-shadow: inset 0 0 3px #ccc; display: block; font: 1.2em Georgia, Times, Times New Roman, serif; font-style: italic; margin: auto; padding: .3em .2em; width: 90%; height:50px; }
 
 #talalat { background: #fefefb; width: 81%; margin: auto; margin-top: -24px; list-style: none; box-shadow: 0px 0px 2px #ddd;}
 #talalat li { border: 1px solid #ddd; border-top: none; padding: 0;}
@@ -46,24 +58,24 @@ header h1{text-align:center;margin:1em 0 -.2em;}
 #talalat li a:hover { background: #5e7c97; color: #fdfdfa; }
 #talalat li a:active { position: static; }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .top{display:none;}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-nav{display:inline-block;font-size:1.5em;padding:1.7em 0 0 1.3em;}
-nav p{font-size:1.3em;font-style:italic;}
+nav{font-size:1.5em;padding:1.3em 0 0 1.3em;}
+nav p{font-size:1.3em;font-style:italic;padding:1em 0;}
 
 nav ol,nav ul,.abc-mutato ol,.form{list-style:none;}
 nav ol{padding-left:1.5em;}
@@ -173,7 +185,7 @@ summary span{border-bottom:1px dotted #aaa;display:inline;}
 
 @media screen and (min-width:36em){
 
- .top {bottom:.5em;display:inherit;font-size:1.2em;opacity:.3;position:fixed;right:1em;-webkit-transition:all .2s ease;transition:all .2s ease;}
+ .top {bottom:.1em;display:inherit;font-size:1.2em;opacity:.3;position:fixed;right:.5em;-webkit-transition:all .2s ease;transition:all .2s ease;}
  .top:hover{opacity:1;}
  .top a{border:none;}
 
@@ -187,12 +199,20 @@ summary span{border-bottom:1px dotted #aaa;display:inline;}
 
 @media screen and (min-width:49.5em){
 
-header h1{margin-top:2em;}
+header h1 { padding-top: 2em; }
 
 
 .form{margin:-1.3em auto 3.5em;width:620px;}
 #verskeres{width:610px; height: 50px;}
 #talalat { width: 610px; margin-top: -56px;}
+
+
+
+nav{margin:auto;width:620px;}
+nav ul{padding-left:.7em;white-space:nowrap;}
+
+
+
 
 .cv{width:760px;margin:auto;}
 .cv h1{font-size:2.3em;padding-top:.5em;}
@@ -212,7 +232,6 @@ header h1{margin-top:2em;}
 
 .szoj{border:1px solid #ccc;margin:1em auto 0;}
 .szoj-lead{padding-bottom:3em;}
-nav p{padding:1em 0;}
 
 }
 
@@ -230,10 +249,7 @@ small{font-size:16px;}
 
 
 
-nav{text-align:left;}
-nav p{padding:2.7em 0 1em;}
-nav{margin:0;margin-left:235px;padding:0;width:430px;}
-nav ul{padding-left:.7em;white-space:nowrap;}
+
 
 
 
@@ -940,3 +956,39 @@ nav ul{padding-left:.7em;white-space:nowrap;}
 
 
   .bannercont {margin-bottom: 4em;}
+
+  @font-face {
+  font-family: 'icomoon';
+  src:url('fonts/icomoon.eot?-vtzej5');
+  src:url('fonts/icomoon.eot?#iefix-vtzej5') format('embedded-opentype'),
+    url('fonts/icomoon.woff?-vtzej5') format('woff'),
+    url('fonts/icomoon.ttf?-vtzej5') format('truetype'),
+    url('fonts/icomoon.svg?-vtzej5#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-circle-up:before {
+  content: "\e601";
+}
+
+.icon-external-link:before {
+  content: "\e600";
+}
+
+.icon-external-link {font-size: .63em; color: #aaa; padding-left: 6px;}
+.nav-first-lvl {color:#3c5d7a;;}
