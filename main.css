@@ -26,16 +26,20 @@ a:active { color: #54a2de; position: relative; top: 1px; }
 
 a:hover, a:active { outline: 0; }
 
-small { font-style: italic; font-size: .75em; }
+small { font-style: italic; font-size: 1em; }
 hr { color: #3b3b3b; height: 0; padding: 0 0 60px 20px; }
 hr:before { content: "*"; }
 
 h1, h2, h3 { font-weight: normal; }
 h2 { font-size: 1.2em; letter-spacing: 0.05em; margin: .83em 0; padding: 50px 0 5px; text-transform: uppercase; white-space: nowrap; }
-h3 { padding: 10px 0 20px; font-size: 1.17em; }
+h3 { padding: 0 0 10px; font-size: 1.17em; }
 
-article { font-size: 1.3em; padding-left: 1.5em; }
+article { font-size: 1.1em; padding: 0 2em; }
+p { padding-bottom: 30px; }
+
+.proza article { margin: auto; max-width: 700px; }
 .vers p { white-space: nowrap; }
+
 
 
 
@@ -46,6 +50,9 @@ article { font-size: 1.3em; padding-left: 1.5em; }
    ========================================================================== */
 
 header h1 { text-align: center; padding-top: 1em; margin-bottom: -.2em; }
+
+.bannercont { margin: 15px auto 4em; height: 300px; width: 300px; overflow: hidden; position: relative; }
+.banner { background: url(bg-stars.jpg); background-size: auto; height: 100%; width: 300%; position: absolute; top: 0; left: 0; -webkit-animation: Slideshow 300s ease-out infinite; }
 
 .form { padding: 0; margin: -1.3em auto 1.5em; width: 90%; }
 .form label { border: 0; clip: rect(0 0 0 0); height: 1px; width: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; }
@@ -62,234 +69,185 @@ header h1 { text-align: center; padding-top: 1em; margin-bottom: -.2em; }
 
 
 
+/* ==========================================================================
+   Table of Contents & Navigation
+   ========================================================================== */
 
+.top { display: none; }
 
+nav { font-size: 1.5em; padding: 1.3em 0 0 1.3em; }
+nav p { font-size: 1.3em; font-style: italic; padding: 1em 0; }
 
+nav ol, nav ul, .abc-mutato ol, .form { list-style: none; }
+nav ol { padding-left: 1.5em; }
+nav ul { padding-left: .5em; }
+nav > ul { margin-top: -.8em; }
+nav ul li { padding: .1em 0; }
+ol ol li { color: #999; font-size: .85em; padding: .3em 0; }
 
+summary { color: #223849; cursor: pointer; }
+summary::-webkit-details-marker { display: none; }
+summary span { border-bottom: 1px dotted #aaa; display: inline; }
 
+.rogt-mutato li, .valt-mutato li { color: #999; font-size: .85em; padding: .3em 0; }
+.rogt-mutato, .valt-mutato, ol ol, .best-of ol { list-style: decimal; padding-left: 3em; }
 
+.abc-mutato ol { padding-left: 1.5em; }
+.abc-mutato summary, .evek-mutato summary { font-size: 1.2em; padding: .05em; }
 
+.cv-mutato, .jegyz-mutato { color: #223849; }
 
+.irasok-idorend summary { font-size: .85em; }
 
 
-.top{display:none;}
 
-nav{font-size:1.5em;padding:1.3em 0 0 1.3em;}
-nav p{font-size:1.3em;font-style:italic;padding:1em 0;}
 
-nav ol,nav ul,.abc-mutato ol,.form{list-style:none;}
-nav ol{padding-left:1.5em;}
-nav ul{padding-left:.5em;}
-nav>ul{margin-top:-.8em;}
-nav ul li{padding:.1em 0;}
-ol ol li{color:#999;font-size:.85em;padding:.3em 0;}
 
-summary{color:#223849;cursor:pointer;}
-summary::-webkit-details-marker{display:none;}
-summary span{border-bottom:1px dotted #aaa;display:inline;}
+/* ==========================================================================
+   Text Fixes, Indents & Typography
+   ========================================================================== */
 
-.rogt-mutato li,.valt-mutato li{color:#999;font-size:.85em;padding:.3em 0;}
-.rogt-mutato,.valt-mutato,ol ol,.best-of ol{list-style:decimal;padding-left:3em;}
+.ev { font-size: 3em;padding: 1.5em 0 0 .6em; }
+.vers { display: inline-block; }
+.s { padding-left: 53px; }
+.s2 { padding-left: 96px; }
+.s3 { padding-left: 30px; }
+.s-ax { padding-left: 90px; }
+.s4 { margin-left: -10px; }
+.s5 { margin-left: -5px; }
+.ls1 { letter-spacing: 0.05em; }
 
-.abc-mutato ol{padding-left:1.5em;}
-.abc-mutato summary,.evek-mutato summary{font-size:1.2em;padding:.05em;}
+#munkasok-rimbaud p { white-space: normal; max-width: 500px; }
+#petofi-tuze hr:before { content: "***"; }
+#keltezetlen-toredekek h3, #toredekes-rogtonzesek-tormeleksorok h3 { font-size: 16px; text-transform: uppercase; }
 
-.cv-mutato,.jegyz-mutato{color:#223849;}
+.vers-cont .alcim { font-style: italic; }
 
-.irasok-idorend summary{font-size:.85em;}
+.vers-cont .ajanlas2 { margin-left: 120px; text-align: left; }
+.vers-cont .ajanlas3 { text-align: right; }
+.vers-cont .ajanlas-farsang { margin-left: 100px; text-align: left; }
 
+.vers-cont .bev2 { font-size: .9em; }
+.vers-cont .bev3 { font-size: 16px; }
+.vers-cont .parbesz { font-size: 16px; letter-spacing: 0.06em; padding-bottom: 5px; text-transform: uppercase; }
 
-.ev{font-size:3em;padding:1.5em 0 0 .6em;}
-.vers{display:inline-block;}
-.s{padding-left:53px;}
-.s2{padding-left:96px;}
-.s3{padding-left:30px;}
-.s-ax{padding-left:90px;}
-.s4{margin-left:-10px;}
-.s5{margin-left:-5px;}
-.ls1{letter-spacing:0.05em;}
+.vers-cont .sorbe-imadsag-megfaradtaknak { padding-left: 342px; }
+.vers-cont .sorbe-tanitasok { padding-left: 248px; }
+.vers-cont .sorbe-somogyi-lolinak { padding-left: 240px; }
 
-#petofi-tuze hr:before{content:"***";}
-#keltezetlen-toredekek h3,#toredekes-rogtonzesek-tormeleksorok h3{font-size:16px;text-transform:uppercase;}
+.vers-cont .sor { padding-right: 15px; }
+.vers-cont .sor1 { margin-left: -43px; }
+.vers-cont .egy-toredek-alakulasa-fix { margin-left: 43px; }
 
-.alcim{font-style:italic;}
 
-.ajanlas2{margin-left:120px;text-align:left;}
-.ajanlas3{text-align:right;}
-.ajanlas-farsang{margin-left:100px;text-align:left;}
 
-.bev2{font-size:.9em;}
-.bev3{font-size:16px;}
-.parbesz{font-size:16px;letter-spacing:0.06em;padding-bottom:5px;text-transform:uppercase;}
 
-.sorbe-imadsag-megfaradtaknak{padding-left:342px;}
-.sorbe-tanitasok{padding-left:248px;}
-.sorbe-somogyi-lolinak{padding-left:240px;}
 
-.sor{padding-right:15px;}
-.sor1{margin-left:-43px;}
-.egy-toredek-alakulasa-fix{margin-left:43px;}
+/* ==========================================================================
+   Prose
+   ========================================================================== */
 
+.proza sup { display: none; }
 
+.proza { max-width: 700px; margin: auto; }
 
-.best-of{font-size:1.2em;padding:0;}
-.best-of ol{color:#999;padding:2.4em 0 0 3.5em;}
-.best-of li {padding:5px 0;}
-#valogatas{font-size:2.7em;padding-left:.8em;}
+.proza .poem { padding-left: 60px; white-space: nowrap; }
+.proza .utem { font-style: normal; display: inline-block; text-align: center; border-bottom: 1px solid #3b3b3b; width: 12px; height: 20px; }
+.proza .poem-title { text-align: right; }
+.proza .s { font-style: normal; margin-left: -8px; padding: 0;}
+.proza .cap, .proza abbr { font-style: normal; letter-spacing:0.06em; }
+.proza abbr, .proza .s-cap { font-style: normal; letter-spacing:0.05em; font-variant: small-caps; }
+.proza .szoj-lead { padding-bottom: 60px; }
+.proza .date { text-align: right; }
+.proza hr { text-align: center; }
+.proza .ev { text-align: left; }
 
+#uj-szocializmust .cap { letter-spacing:0.08em; }
+#szabad-otletek-jegyzeke p { padding-bottom: 10px; }
 
-
-.nav-back{display:block;margin:auto;padding:.5em 0 1.5em 3em;width:300px;}
-
-
-
-.cv p,.szoj p{-moz-hyphens:auto;}
-
-.cv p{font-size:1em;line-height:1.6;padding:0 1.5em 30px;white-space: normal;}
-.cv h1{font-size:2em;letter-spacing:0.09em;padding:.7em 0 1em;text-align:center;text-transform:uppercase;}
-
-
-.szoj{padding:0 1.4em;}
-.szoj h1{font-size:1.8em;letter-spacing:0.08em;padding:1.7em 0 1em;text-align:center;text-transform:uppercase;}
-.szoj h2{font-size:1.5em;font-style:italic;margin-top:-0.4em;padding:0 0 1em 0;text-align:center;text-transform:none;}
-.szoj h1+h2{padding:0 0 2em 0;}
-.szoj p {line-height:1.6;font-size:1em;padding: 0 0 1em;white-space:normal;}
-.szoj .date{padding:0 0 2.5em;text-align:right;}
-
-.szoj-lead{padding:0 1.5em;}
-.szoj-lead p{white-space:normal;}
-.szoj-lead h2{font-size:1.8em;letter-spacing:0.09em;padding:1.7em 0 1em;text-align:center;}
-
-
-
-.ill { margin: 20px 0 50px 25px; }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (min-width:23em){}
-
-
-@media screen and (min-width:36em){
-
- .top {bottom:.1em;display:inherit;font-size:1.2em;opacity:.3;position:fixed;right:.5em;-webkit-transition:all .2s ease;transition:all .2s ease;}
- .top:hover{opacity:1;}
- .top a{border:none;}
-
- .cv p{padding-left:2em;}
-
- #valogatas{font-size:3em;}
-
+.proza article h2 { font-weight: normal; text-transform: none; font-size: 2.31em; padding-top: 30px; margin-bottom: 10px; line-height: 1.25; letter-spacing: 0.04em; white-space: normal; }
+.proza section h2, .proza h3 { font-weight: normal; font-size: 1.4em; line-height: 1.4; margin: 10px 0; }
+.proza article h4 { font-size: 1.2em; font-weight: normal; margin: 10px 0; }
+.proza section header h2+p { font-size: 1.3em; }
+.proza article header p { font-size: 1.6em; margin-top: -5px; line-height: 1.4; }
+.proza article header p+p { font-size: 1.4em; }
+.proza article p { -moz-hyphens:auto; }
+.proza footer { font-size: 16px; }
+.proza article span { font-style: italic; }
+
+/* Text Selection for Notes
+   ========================================================================== */
+
+/*sup {
+  color: #999;
+  cursor: pointer;
+  font-size: 16px;
 }
 
-
-
-@media screen and (min-width:49.5em){
-
-header h1 { padding-top: 2em; }
-
-
-.form{margin:-1.3em auto 3.5em;width:620px;}
-#verskeres{width:610px; height: 50px;}
-#talalat { width: 610px; margin-top: -56px;}
-
-
-
-nav{margin:auto;width:620px;}
-nav ul{padding-left:.7em;white-space:nowrap;}
-
-
-
-
-.cv{width:760px;margin:auto;}
-.cv h1{font-size:2.3em;padding-top:.5em;}
-.cv p{font-size:1.2em;line-height:1.6;}
-
-.szoj,.szoj-lead{margin:auto;padding:0 2.5em;width:690px;}
-.szoj p,.szoj-lead p{font-size:1.2em;line-height:1.6;}
-
-.szoj h1{font-size:2.3em;padding:1.5em 0 1em;}
-.szoj h2{font-size:1.5em;margin-top:-.4em;padding-bottom:1em;}
-
+.tooltipster-default sup {
+  color: #ededea;;
 }
 
-
-
-@media screen and (min-width:54em){
-
-.szoj{border:1px solid #ccc;margin:1em auto 0;}
-.szoj-lead{padding-bottom:3em;}
-
-}
-
-
-
-@media screen and (min-width: 80.5em){
-
-body{text-rendering:optimizeLegibility;}
-p{font-size:19px;text-align:left;padding:0 0 30px 120px;}
-article{padding-left:0;text-align:center;}
-h2{font-size:23px;padding:100px 0 15px 25px;}
-h3{padding:15px 0 20px 25px;}
-article h3:first-of-type{padding-top:5px;}
-small{font-size:16px;}
+sup::-moz-selection { color: #c75f1a; }
+sup::selection { color: #c75f1a; }*/
 
 
 
 
 
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
 
+@media screen and (min-width: 36em) {
 
+  .top { bottom: .1em; display: inherit; font-size: 1.2em; opacity: .3; position: fixed; right: .5em; -webkit-transition: all .2s ease; transition: all .2s ease; }
+  .top:hover { opacity: 1; }
+  .top a { border: none; }
 
-.best-of ol{padding-left:1.6em;list-style:lower-roman;}
-.best-of li{padding: 3px 0;}
+ }
 
-.nav-back{padding:.1em 0 3em 4.5em;}
+@media screen and (min-width: 49.5em) {
 
-.cv p,.szoj p,.szoj-lead p{font-size:1.3em;line-height:1.7;}
+  header h1 { padding-top: 2em; }
 
-.cv h1{font-size:2.5em;}
-.cv p{padding:0 0 3em 0;}
+  .form { margin: -1.3em auto 3.5em; width: 620px; }
+  #verskeres { width: 610px; height: 50px; }
+  #talalat { width: 610px; margin-top: -56px; }
 
-.szoj,.szoj-lead{width:990px;}
-.szoj{margin-bottom:3em;}
-.szoj h1{font-size:2.5em;}
-.szoj h2{font-size:1.8em;}
-.szoj hr{font-size:2em;}
+  nav { margin: auto; width: 620px; }
+  nav ul { padding-left: .7em; white-space: nowrap; }
 
-.szoj-lead{padding:0 0 4em;}
-.szoj-lead p{font-size:1.4em;padding:0;}
-.szoj-lead h3{font-size:1.5em;padding:1em 0;text-align:left;}
+ }
 
-.ill { margin: 20px 0 50px 55px; }
+@media screen and (min-width: 80.5em) {
 
-.ev{font-size:3em;margin-bottom:-1.3em;padding:1.2em 0 0 .6em;}
-.val{margin-bottom:-.6em;}
-.kozmosz-int{padding-left:155px;}
-.sorbe-imadsag-megfaradtaknak{padding-left:318px;}
-.ajanlas{padding-left:25px;text-align:center;}
-.s-ax{padding-left:83px;}
-.s4{margin-left:-8px;}
-.s5{margin-left:-4px;}
-#judit-versek-toredekei h3{padding-bottom:0;}
-#alkalmi-vers-a-szocializmus-allasarol .ajanlas{padding-left:25px;}
-#oda .ajanlas{margin-left:-80px;}
-#harom-vandor-epilog{padding-right:80px;}
+  body { text-rendering: optimizeLegibility; }
+  small { font-size: 16px; }
 
+  .vers-cont article { padding-left: 0; text-align: center; font-size: 1.3em; }
+  .vers-cont p { font-size: 19px; text-align: left; padding: 0 0 30px 120px; }
+  .vers-cont h2 { font-size: 23px; padding: 100px 0 15px 25px; }
+  .vers-cont h3 { padding: 15px 0 20px 25px; }
+  .vers-cont article h3: first-of-type { padding-top: 5px; }
 
+  .vers-cont .ev { font-size: 3em; margin-bottom: -1.3em; padding: 1.2em 0 0 0; text-align: center; }
+  .vers-cont .proza .ev { padding: 1.2em 0 .5em .8em; }
+  .vers-cont .val { margin-bottom: -.6em; }
+  .vers-cont .kozmosz-int { padding-left: 155px; }
+  .vers-cont .sorbe-imadsag-megfaradtaknak { padding-left: 318px; }
+  .vers-cont .ajanlas { padding-left: 25px; text-align: center; }
+  .vers-cont .s-ax { padding-left: 83px;  }
+  .vers-cont .s4 { margin-left: -8px; }
+  .vers-cont .s5 { margin-left: -4px; }
+
+  #judit-versek-toredekei h3 { padding-bottom: 0; }
+  #alkalmi-vers-a-szocializmus-allasarol .ajanlas { padding-left: 25px; }
+  #oda .ajanlas { margin-left: -80px; }
+  #harom-vandor-epilog { padding-right: 80px; }
+
+/* Center Alignment Fix For Poems
+   ========================================================================== */
 
 #anyam-a-mosasban-gyaszkoszoru p{padding-left:20px;}
 
@@ -304,7 +262,6 @@ small{font-size:16px;}
 #szallj-koltemeny p,
 #ha-nem-leszel p,
 #toredekek-1-1937 p,
-
 #lagy-tajek-valt p,
 #a-hit-boldogit p,
 #homonnai-ibinek p,
@@ -517,6 +474,8 @@ small{font-size:16px;}
 #latod p,
 #megfaradt-ember p,
 #a-gyerekszemu-elet-tavon p,
+#haromszaz-spartai-sirverse p,
+#idok-beteljesedese p,
 #toredekes-rogtonzesek-tormeleksorok p{padding-left:60px;}
 
 #szep-csondesen-aludj p,
@@ -623,6 +582,10 @@ small{font-size:16px;}
 #beszel-a-tej p,
 #eve-25 p,
 #a-fan-a-levelek p,
+#munkasok-rimbaud p,
+#nyirfak p,
+#este p,
+#egy-ember p,
 #szerelmes-keseru-hazafisag p{padding-left:70px;}
 
 #elkoszono-szelid-szavak p{padding-left:74px;}
@@ -705,6 +668,9 @@ small{font-size:16px;}
 #remenytelenul p,
 #kosztolanyi p,
 #oszi-alkonyat p,
+#ki-all-helyemre p,
+#katonatemeto p,
+#szivem-testvere-az-ido p,
 #balga-kolto p{padding-left:80px;}
 
 #tavol-zongora-mellett p,
@@ -712,8 +678,8 @@ small{font-size:16px;}
 #koldusok-1-3 p,
 #nyar p,
 #fohaszkodo-enek p,
-#lazado-szentek p
-{padding-left:85px;}
+#lazado-szentek p,
+#villon-ferenc-nagy-testamentuma p{padding-left:85px;}
 
 #pauvre-plaint-chant-mechant p,
 #ki-verne-fol-lelkunkben-a-lelket p,
@@ -805,6 +771,12 @@ small{font-size:16px;}
 #kesz-a-leltar p,
 #a-legutolso-harcos-valt p,
 #bethlen-istvan p,
+#elmulas p,
+#a-meghokkentek p,
+#ebredjetek-szolit-a-hang p,
+#konyvek-az-asztalon p,
+#a-meszarszekek p,
+#eros-var-a-mi-istenunk p,
 #sportirodalom p{padding-left:90px;}
 
 #utrakeszseg p,
@@ -845,6 +817,12 @@ small{font-size:16px;}
 #kakuk-marci p,
 #a-szeretok-hallgatva-alltak p,
 #fordulo p,
+#az-osz-az-uccan p,
+#egyedul-vasile-ciocalteu p,
+#a-golgota-kovete p,
+#oszi-ima p,
+#a-banyasz-aron-cotrus p,
+#hol-a-foldes-dulo p,
 #komoly-lett-mar p{padding-left:100px;}
 
 #thomas-mann-udvozlese p,
@@ -879,6 +857,8 @@ small{font-size:16px;}
 #het-napja p,
 #kiknek-adtam-a-boldogot-valt p,
 #mikor-a-szeretok-valt p,
+#foldet-adj p,
+#aeternitas p,
 #anya p{padding-left:110px;}
 
 #szeretnem-ha-vadalmafa-lennek p,
@@ -893,11 +873,14 @@ small{font-size:16px;}
 #farsangi-lakodalom p,
 #azt-olvastam-hogy-perli-a-nepet p,
 #magyarok-1-2 p,
+#archeologia p,
 #asszonyvaras-asszonyszobor-mellett p{padding-left:130px;}
 
 #ma-nevnapja-van p,
 #az-oktato-mama-oktatasa p,
 #szep-nyari-este-van p,
+#ballada-melyet-villon-szerzett-edesanyja-keresere p,
+#arc-az-uveg-mogott p,
 #toredekek-2-1937 p{padding-left:140px;}
 
 #harom-vandor p,
@@ -905,59 +888,73 @@ small{font-size:16px;}
 #egy-ifju-parra p{padding-left:150px;}
 
 #margareta p,
+#a-sas p,
+#tidmann-ur p,
+#a-banyasz p,
+#delelott-a-parkban p,
 #bibliai p{padding-left:160px;}
 
 #csengo p,
+#a-tulso-part p,
+#utolso-versek p,
+#leonidas p,
 #enek-magamhoz p{padding-left:170px;}
 
-#szurkulet p{padding-left:180px;}
+#szurkulet p,
+#meghaltak p,
+#gyarban p,
+#a-voros-lo p{padding-left:180px;}
 
 #tanitasok p{padding-left:195px;}
 
 #toredekek-1931 p,
+#sokasag-te p,
+#a-haldoklo p,
 #balatonszarszo3 p{padding-left:200px;}
 
 #hova-forduljon-az-ember p{padding-left:250px;}
 
 }
 
-    .bannercont { height: 300px; width: 300px; overflow: hidden; position: relative; margin: auto; margin-top: 15px;}
-  .banner { background: url(bg-stars.jpg); background-size: auto; box-shadow: none; height: 100%; width: 300%; position: absolute; top: 0; left: 0; -webkit-animation: Slideshow 300s ease-out infinite;}
 
-  @-webkit-keyframes Slideshow {
-    0% {
-      -webkit-transform: translateX(0);
-      transform: translateX(0);
-    }
-    50% {
-      -webkit-transform: translateX(-600px);
-      transform: translateX(-600px);
-    }
-    100% {
-      -webkit-transform: translateX(0px);
-      transform: translateX(0px);
-    }
+
+
+
+/* ==========================================================================
+   Header Animation & Icons
+   ========================================================================== */
+
+@-webkit-keyframes Slideshow {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
   }
-
-  @keyframes Slideshow {
-    0% {
-      -webkit-transform: translateX(0);
-      transform: translateX(0);
-    }
-    50% {
-      -webkit-transform: translateX(-600px);
-      transform: translateX(-600px);
-    }
-    100% {
-      -webkit-transform: translateX(0px);
-      transform: translateX(0px);
-    }
+  50% {
+    -webkit-transform: translateX(-600px);
+    transform: translateX(-600px);
   }
+  100% {
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+  }
+}
 
+@keyframes Slideshow {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  50% {
+    -webkit-transform: translateX(-600px);
+    transform: translateX(-600px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+  }
+}
 
-  .bannercont {margin-bottom: 4em;}
-
-  @font-face {
+@font-face {
   font-family: 'icomoon';
   src:url('fonts/icomoon.eot?-vtzej5');
   src:url('fonts/icomoon.eot?#iefix-vtzej5') format('embedded-opentype'),
@@ -976,19 +973,11 @@ small{font-size:16px;}
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-
-  /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-arrow-circle-up:before {
-  content: "\e601";
-}
-
-.icon-external-link:before {
-  content: "\e600";
-}
-
-.icon-external-link {font-size: .63em; color: #aaa; padding-left: 6px;}
-.nav-first-lvl {color:#3c5d7a;;}
+.icon-arrow-circle-up:before { content: "\e601"; }
+.icon-external-link:before { content: "\e600"; }
+.icon-external-link { color: #aaa; font-size: .63em; padding-left: 6px; }
+.nav-first-lvl { color: #3c5d7a; }
