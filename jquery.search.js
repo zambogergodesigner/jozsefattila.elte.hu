@@ -813,7 +813,8 @@ var versek = {
   '1937.html#1937':'1937-es versek',
   'valtozatok.html#valtozatok':'Változatok',
   'rogtonzesek.html#rogtonzesek':'Rögtönzések',
-  '1925.html#veronika':'Emlékül Veronikának'
+  '1925.html#veronika':'Emlékül Veronikának',
+  '1936.html#zsaklin':'Zsaklinnak'
 }
 $(document).ready(function(){
 	$("#verskeres").keyup(function(e){
