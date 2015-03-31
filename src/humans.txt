@@ -1,0 +1,40 @@
+Kedves Olvasó!
+
+Ezen a digitális kiadáson több mint 2 éven át dolgoztam.
+
+Szerettem volna, ha ezek a versek a lehető legszebb és legteljesebb
+formában lennének elérhetőek mindenki számára.
+
+Sajnálom, hogy nem könyv, aminek fogása, illata van, de
+így legalább ingyenes, és nyugtasson meg mindenkit, hogy
+szívem-lelkem benne van.
+
+Ha bármi elírást, hibát talál a versekben, írjon egy levelet!
+Sajnos én is csak ember vagyok és előfordul, hogy hibázom.
+
+Köszönöm.
+
+„Azok a könyvek, melyek a könyvtárak polcain szunnyadnak, még nem készek,
+vázlatosak, magukban semmi értelmük. Ahhoz, hogy értelmet kapjanak, te kellesz, olvasó!”
+
+– Kosztolányi Dezső
+
+
+/* KÉSZÍTŐ */
+
+Név: Zámbó Gergő
+Elérhetőség: zambo_gergo@hotmail.com
+
+/* WEBLAP */
+
+Szabványok: HTML5, CSS3
+Felhasznált kódok: jQuery, HTML5 Boilerplate, Normalize.css
+
+/* KÖSZÖNET */
+
+József Attilának
+Szabó Dávidnak
+Tóth Ernőnek
+a magyar tanáromnak
+az irodalomnak
+és az olvasónak

@@ -1,0 +1,316 @@
+::-moz-selection{background:#d5d2d4;text-shadow:none;}
+::selection{background:#d5d2d4;text-shadow:none;}
+
+
+
+article,body,details,h1,h2,h3,header,html,hr,li,nav,ol,p,section,summary,sup,ul{border:0;margin:0;padding:0;}
+
+article,details,header,main,nav,section,summary{display:block;}
+
+html{font-size:100%;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+
+
+
+
+
+a{border-bottom:1px dotted #aaa;color:#3c5d7a;text-decoration:none;-webkit-transition:all .2s ease;transition:all .2s ease;}
+a:visited{color:#000;}
+a:hover,a:focus{color:#000;outline:thin dotted;}
+a:active{color:#54a2de;position:relative;top:1px;}
+
+a:hover,a:active{outline:0;}
+
+
+h1{font-weight:normal;}
+
+h1 a{border-bottom:none;color: #000;}
+h1 a:visited{color:#333;}
+h1 a:hover{color:#333;text-shadow:0 1px 1px #999;}
+h1 a:active{ position: static; }
+
+header h1{color:#333;font-size:2em;font-style:italic;padding:.5em 0 1.5em 0;text-align:center;text-shadow:0 1px 1px #999;}
+h1 span{display:block;margin-top:-.2em;line-height:1.12em; font-size: .7em;}
+
+header img{display:block;margin:0 auto;height: 156px; width: 347px;}
+
+.proza-header nav p { padding-bottom: 30px; }
+
+.header-bg {display: none;}
+
+nav{display:inline-block;font-size:1.5em;padding:1.7em 0 1em 1.3em;}
+nav p{font-size:1.3em;font-style:italic;}
+
+nav ol,nav ul,.abc-mutato ol,.form{list-style:none;}
+nav ol{padding-left:1.5em;}
+nav ul{padding-left:.5em;}
+nav>ul{margin-top:-.8em;}
+nav ul li{padding:.1em 0;}
+ol ol li{color:#999;font-size:.85em;padding:.3em 0;}
+
+summary{color:#223849;cursor:pointer;}
+summary::-webkit-details-marker{display:none;}
+summary span{border-bottom:1px dotted #aaa;display:inline;}
+
+.rogt-mutato li,.valt-mutato li{color:#999;font-size:.85em;padding:.3em 0;}
+.rogt-mutato,.valt-mutato,ol ol,.best-of ol{list-style:decimal;padding-left:3em;}
+
+.abc-mutato ol{padding-left:1.5em;}
+.abc-mutato summary,.evek-mutato summary{font-size:1.2em;padding:.05em;}
+
+.cv-mutato,.jegyz-mutato{color:#223849;}
+
+.irasok-idorend summary{font-size:.85em;}
+
+
+
+.form{padding:0;margin:-1.3em auto 1.5em;width:300px;}
+.form  label{border:0;clip:rect(0 0 0 0);height:1px;width:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;}
+#verskeres{border:1px solid #ccc;border-radius:3px;box-shadow:inset 0 0 3px #ccc;display:block;font:1.2em Georgia,Times,'Times New Roman',serif;font-style:italic;margin:auto;padding:.3em .2em;width:300px;}
+
+#talalat { background: #fefefb; width: 300px; margin: auto; margin-top: -24px; list-style: none; box-shadow: 0px 0px 2px #ddd;}
+#talalat li { border: 1px solid #ddd; border-top: none; padding: 0;}
+#talalat li a { border: none; display: block; padding: 8px 10px; transition: none;}
+#talalat li a:hover { background: #5e7c97; color: #fdfdfa; }
+#talalat li a:active { position: static; }
+
+.top{display:none;}
+
+.ev{font-size:3em; margin: 1em 0 .6em; line-height: 1.1em;}
+
+@media screen and (max-width:23em){
+
+header h1{font-size:2.5em;}
+
+.form{width:250px;}
+#verskeres{width:250px;}
+#talalat { width: 250px; }
+
+}
+
+@media screen and (min-width:23em){
+
+header h1{font-size:3.5em;}
+nav ul{padding-left:1em;}
+header img{height: 213px; width: 472px;}
+
+}
+
+@media screen and (min-width:30em){
+
+header h1{font-size:2.8em; padding: 1em 1em 1.2em;}
+header img{height: 271px; width: 600px; position: relative; z-index: 1;}
+.header-bg {display: block; position: absolute; top: 0px; background: #000; width: 100%; height: 271px; z-index: 0;}
+
+}
+
+@media screen and (min-width:36em){
+
+h1 span{display:inline; font-size: 1em;}
+header h1{ padding-bottom: 1.2em; }
+
+.top {bottom:.5em;display:inherit;font-size:1.2em;opacity:.3;position:fixed;right:1em;-webkit-transition:all .2s ease;transition:all .2s ease;}
+.top:hover{opacity:1;}
+.top a{border:none;}
+
+.form{width:400px;}
+#verskeres{margin-top:.3em;width:400px;}
+#talalat { width: 400px; }
+
+}
+
+@media screen and (min-width:49.5em){
+
+header h1{font-size:3.5em;margin-top:-.2em; padding-bottom: .7em;}
+
+
+.form{margin:-1.3em auto 3.5em;width:620px;}
+#verskeres{width:610px;}
+#talalat { width: 610px; margin-top: -56px;}
+
+}
+
+@media screen and (min-width:54em){
+
+nav p{padding:1em 0;}
+
+}
+
+@media screen and (min-width: 80.5em){
+
+body{text-rendering:optimizeLegibility;}
+
+header h1{margin-top:-.15em; padding-top: 1.2em;}
+
+nav{text-align:left;}
+nav p{padding:2.7em 0 1em;}
+nav{margin:0;margin-left:235px;padding:0;padding-bottom: 60px; width:430px;}
+nav ul{padding-left:.7em;white-space:nowrap;}
+
+#talalat { text-align: left; }
+#talalat li a { padding: 10px; }
+
+.proza-header { text-align: center;}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+  background: #fdfdfa;
+  color: #3b3b3b;
+  font:1em/1.4 Georgia,Times,'Times New Roman',serif;
+
+
+
+}
+
+article ul {
+  list-style-type: none;
+}
+
+.proza {
+  margin-top: 40px;
+  font-size: 18px;
+  line-height: 1.55;
+  max-width: 660px;
+  margin: 0 auto 60px;
+  padding: 0 20px;
+}
+
+article {
+  padding-bottom: 60px;
+}
+
+article h2 {
+  font-weight: normal;
+  font-size: 2.31em;
+  padding-top: 30px;
+  margin-bottom: 10px;
+  line-height: 1.25;
+  letter-spacing: 0.04em;
+}
+
+section h2, h3 {
+  font-weight: normal;
+  font-size: 1.4em;
+  line-height: 1.4;
+  margin: 10px 0;
+}
+
+article h4 {
+  font-size: 1.2em;
+  font-weight: normal;
+  margin: 10px 0;
+}
+
+section header h2+p {
+  font-size: 1.3em;
+}
+
+article header p {
+  font-size: 1.6em;
+  margin-top: -5px;
+  line-height: 1.4;
+}
+
+article header p+p {
+  font-size: 1.4em;
+}
+
+article p {
+  -moz-hyphens:auto;
+  padding-bottom: 25px;
+}
+
+footer {
+  font-size: 16px;
+}
+
+hr{color:#3b3b3b;height:0;padding:0 0 60px 0; text-align: center; font-size: 1.5em;}
+hr:before{content:"*";}
+
+sup {
+  color: #999;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.tooltipster-default sup {
+  color: #ededea;;
+}
+
+sup::-moz-selection { color: #c75f1a; }
+sup::selection { color: #c75f1a; }
+
+
+article span {
+  font-style: italic;
+}
+
+.utem {
+  font-style: normal;
+  display: inline-block;
+  text-align: center;
+  border-bottom: 1px solid #3b3b3b;
+  width: 12px;
+  height: 22px;
+}
+
+.poem {
+  padding-left: 60px;
+  white-space: nowrap;
+}
+
+.poem-title {
+  text-align: right;
+}
+
+.s {
+  font-style: normal;
+  margin-left: -8px;
+}
+
+.cap, abbr {
+  font-style: normal;
+  letter-spacing:0.06em;
+}
+
+abbr, .s-cap {
+  font-style: normal;
+  letter-spacing:0.05em;
+  font-variant: small-caps;
+}
+
+#uj-szocializmust .cap {
+  letter-spacing:0.08em;
+}
+
+@media screen and (min-width: 80.5em) {
+
+  .proza {
+    font-size: 21px;
+  }
+
+  .utem {
+    width: 15px;
+    height: 25px;
+  }
+
+  .s {
+    margin-left: -9px;
+}
+
+}
