@@ -1038,22 +1038,22 @@ var muvek = {
 }
 
 $(document).ready(function(){
-	$("#keres").keyup(function(e){
-		var matches = {};
-		var matchesCount = 0;
-		if($(this).val().length>1) {
-			var test = $(this).val().toLowerCase();
-			$.each(muvek,function(index,value){
-				if(value.toLowerCase().match(test,'g')  && matchesCount < 10) {
-					matches[index] = value;
-					matchesCount++;
-				}
-			});
-		}
-		$('#talalat').html("");
-		$.each(matches,function(index,value){
-			$('#talalat').append("<li><a href='"+index+"'>"+value+"</a>");
-		});
-	});
-	keres.onsearch= function () { $('#talalat').html(''); };
+  $("#alkeres").keyup(function(e){
+    var matches = {};
+    var matchesCount = 0;
+    if($(this).val().length>1) {
+      var test = $(this).val().toLowerCase();
+      $.each(muvek,function(index,value){
+        if(value.toLowerCase().match(test,'g')  && matchesCount < 10) {
+          matches[index] = value;
+          matchesCount++;
+        }
+      });
+    }
+    $('#talalat').html("");
+    $.each(matches,function(index,value){
+      $('#talalat').append("<li><a href='../"+index+"'>"+value+"</a>");
+    });
+  });
+  alkeres.onsearch= function () { $('#talalat').html(''); };
 });

@@ -1,15 +1,57 @@
-<!doctype html>
+<!doctype html><html lang=hu>
 
-<html lang=hu>
+ <meta charset=utf-8>
+ <meta content="ie=edge" http-equiv=x-ua-compatible>
+ <title>Műfordítások | József Attila összes műve</title>
 
-<meta charset=utf-8>
-<title>Összes vers – József Attila összes műve</title>
-<meta content="József Attila összes versei egységesítve egy lapon kereshetően, megkönnyítve a kutatómunkát a Magyar Elektronikus Könyvtár oldalán." name=description>
+ <meta content="width=device-width, initial-scale=1" name=viewport>
+ <link href=../css/main.css rel=stylesheet>
+ <link href=../favicon.ico rel="shortcut icon" sizes=16x16>
+ <link href=../apple-touch-icon.png rel=apple-touch-icon>
+ <!--[if lt IE 9]><script src=../js/html5shiv-printshiv.js></script><![endif]-->
 
-<link href=favicon.ico rel="shortcut icon" sizes=16x16>
-<meta content="width=device-width, initial-scale=1" name=viewport>
-<link href=main.css rel=stylesheet>
-<!--[if lt IE 9]><script src=html5shiv-printshiv.js></script><![endif]-->
+
+
+
+
+<header>
+
+<h1 id=targymutato>
+ <a href=../index.html title="Vissza a főoldalra"><img src=../img/title.jpg width=300 height=250 alt="József Attila összes műve"></a>
+</h1>
+
+<div class=bannercont>
+ <div class=banner></div>
+</div>
+
+<ul class="form search">
+ <li>
+  <form id=search role=search>
+   <label for=alkeres>Keresés cím szerint:</label>
+   <input id=alkeres placeholder="Versek, írások keresése …" type=search>
+  </form>
+
+</ul>
+
+<ul id=talalat></ul>
+
+<nav>
+<ul>
+ <li class=top><a href=muforditas.html#targymutato title="Vissza az oldal tetejére"><span class=icon-arrow-circle-up></span></a>
+</ul>
+</nav>
+
+</header>
+
+
+
+
+
+<div class=vers-cont role=main>
+
+
+
+
 
 
 
@@ -2117,10 +2159,9 @@ az ökrök huznak, szokták, a járom arra jó.
 </article>
 </div>
 
-<script src=jquery-2.0.3.min.js></script>
-<script src=jquery.details.js></script>
-<script src=jquery.search.all.js></script>
-<script>
-$('details').details();
-$('html').addClass($.fn.details.support ? 'details' : 'no-details');
-</script>
+
+
+
+
+<script src=../js/vendor/jquery-1.11.2.min.js></script>
+<script src=../js/jquery.subsearch.js></script>

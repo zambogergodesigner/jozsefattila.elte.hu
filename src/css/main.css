@@ -17,12 +17,14 @@ article, details, header, main, nav, summary { display: block; }
    ========================================================================== */
 
 html { font-size: 100%; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; }
-body { background: #fdfdfa; color: #3b3b3b; font: 1em/1.4 Georgia, Times, Times New Roman, serif; padding-bottom: 60px; }
+body { background: #fdfdfa; color: #3b3b3b; font: 1em/1.4 Georgia, Times, Times New Roman, serif; }
 
 a { border-bottom: 1px dotted #aaa; color: #3c5d7a; text-decoration: none; -webkit-transition: all .2s ease; transition: all .2s ease; }
 a:visited { color: #000; }
 a:hover, a:focus { color: #000; outline: thin dotted; }
 a:active { color: #54a2de; position: relative; top: 1px; }
+
+h1 a, footer a { border: none; }
 
 a:hover, a:active { outline: 0; }
 
@@ -57,12 +59,12 @@ header h1 { text-align: center; padding-top: 1em; margin-bottom: -.2em; }
 .form { padding: 0; margin: -1.3em auto 1.5em; width: 90%; }
 .form label { border: 0; clip: rect(0 0 0 0); height: 1px; width: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; }
 
-#verskeres { border: 1px solid #ccc; border-radius: 3px; box-shadow: inset 0 0 3px #ccc; display: block; font: 1.2em Georgia, Times, Times New Roman, serif; font-style: italic; margin: auto; padding: .3em .2em; width: 90%; height:50px; }
+#keres, #alkeres { border: 1px solid #ccc; border-radius: 3px; box-shadow: inset 0 0 3px #ccc; display: block; font: 1.2em Georgia, Times, Times New Roman, serif; font-style: italic; margin: auto; padding: .3em .2em; width: 90%; height:50px; }
 
 #talalat { background: #fefefb; width: 81%; margin: auto; margin-top: -24px; list-style: none; box-shadow: 0px 0px 2px #ddd;}
 #talalat li { border: 1px solid #ddd; border-top: none; padding: 0;}
 #talalat li a { border: none; display: block; padding: 12px 16px; transition: none;}
-#talalat li a:hover { background: #5e7c97; color: #fdfdfa; }
+#talalat li a:hover, #talalat li a:focus { background: #5e7c97; color: #fdfdfa; }
 #talalat li a:active { position: static; }
 
 
@@ -100,6 +102,9 @@ summary span { border-bottom: 1px dotted #aaa; display: inline; }
 
 .irasok-idorend summary { font-size: .85em; }
 
+.best-of ol li { font-size: 19px; padding-bottom: 3px; list-style: lower-roman; color: #999; }
+#valogatas { margin: 0 0 10px -30px; margin-bottom: 5px; }
+
 
 
 
@@ -108,6 +113,11 @@ summary span { border-bottom: 1px dotted #aaa; display: inline; }
    Text Fixes, Indents & Typography
    ========================================================================== */
 
+footer { text-align: right; }
+footer p { margin: 80px 60px 0 0; }
+footer img { display: inline-block; margin: 0 0 -12px 5px; }
+
+.love { color: #ae2b26; }
 .ev { font-size: 3em;padding: 1.5em 0 0 .6em; }
 .vers { display: inline-block; }
 .s { padding-left: 53px; }
@@ -213,11 +223,12 @@ sup::selection { color: #c75f1a; }*/
   header h1 { padding-top: 2em; }
 
   .form { margin: -1.3em auto 3.5em; width: 620px; }
-  #verskeres { width: 610px; height: 50px; }
+  #keres, #alkeres { width: 610px; height: 50px; }
   #talalat { width: 610px; margin-top: -56px; }
 
   nav { margin: auto; width: 620px; }
   nav ul { padding-left: .7em; white-space: nowrap; }
+  .best-of ol {padding-left: 220px;}
 
  }
 
@@ -231,6 +242,7 @@ sup::selection { color: #c75f1a; }*/
   .vers-cont h2 { font-size: 23px; padding: 100px 0 15px 25px; }
   .vers-cont h3 { padding: 15px 0 20px 25px; }
   .vers-cont article h3: first-of-type { padding-top: 5px; }
+  .vers-cont img {margin: 50px auto; display: block;}
 
   .vers-cont .ev { font-size: 3em; margin-bottom: -1.3em; padding: 1.2em 0 0 0; text-align: center; }
   .vers-cont .proza .ev { padding: 1.2em 0 .5em .8em; }
