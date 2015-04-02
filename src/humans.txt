@@ -1,4 +1,8 @@
-﻿A kiadásról
+﻿KIADÁSI MEGJEGYZÉSEK
+
+Ebben a könyvben szerepelnek József Attila 1930—1937 közötti tanulmányainak
+és cikkeinek legújabb kritikai kiadásának szövegei. Itt egyesítve vannak ezek
+a kezdetektől 1930-ig tartó kritikai szövegekkel.
 
 Akik a cikkek és tanulmányok jegyzeteit és a kéziratok képeit szeretnék
 tanulmányozni, azok ezt ezeken a linkeken tehetik meg:
@@ -6,16 +10,28 @@ tanulmányozni, azok ezt ezeken a linkeken tehetik meg:
 http://magyar-irodalom.elte.hu/ja/tartalom.htm
 http://textus.elte.hu/ja/textus.html
 
-A költőről és munkásságáról az egyik legrészletesebben ez az oldal ír:
+
+
+A versek Stoll Béla, az Akadémiai Kiadónál 1984-ben megjelent, kritikai kiadásán
+alapulnak, de a már meglévő elektronikus változat szöveghibáit javítottuk és
+kiemelt figyelmet fordítottunk a tipográfiára.
+
+A lelkes műkedvelőknek kezdésnek a válogatott versek szekciót javasoljuk.
+A költőről és munkásságáról az egyik legrészletesebben itt lehet olvasni:
 
 http://magyar-irodalom.elte.hu/sulinet/igyjo/setup/portrek/jozsefa/jozsefat.htm
 
 
 
+Azok az oldalak, ahol a versek és az írások együtt, egy oldalon szerepelnek,
+nem pedig külön oldalakon, nagyban megkönnyítik a szövegek kereshetőségét.
 
-
-Ez a kis internetes könyv a következő, eddig megjelent
+Ez az elektronikus könyv a következő eddig megjelent
 kiadások egybedolgozása:
+
+
+
+
 
 1. József Attila Összes tanulmánya és cikke. Szövegek, 1923–1930.
 http://magyar-irodalom.elte.hu/ja/tartalom.htm
@@ -64,6 +80,8 @@ A hálózati kiadás elkészítését az Országos Műszaki Fejlesztési Bizotts
 
 
 
+
+
 2. József Attila Összes tanulmánya és cikke. Szövegek, 1930–1937.
 http://textus.elte.hu/ja/textus.html
 
@@ -100,6 +118,8 @@ Horváth Iván © 1999–2012
 
 
 
+
+
 3. József Attila válogatott versei
 http://mek.oszk.hu/05500/05570/html/
 
@@ -108,6 +128,8 @@ Stoll Béla
 
 A negyven verset tartalmazó válogatás a Neumann-ház
 Irodalmi Szerkesztőségében készült.
+
+
 
 
 
@@ -127,13 +149,7 @@ Ebből a kiadásból egy prózafordítás és a szépprózai írások lettek bee
 
 
 
-A MEK oldalán lévő kiadások hibái javítva lettek és így kerültek ide,
-a versszövegek forrása az Akadémiai Kiadó gondozásában
-1984-ben megjelent, Stoll Béla által közreadott kritikai kiadás.
-
-Tipográfiailag talán ez az eddigi legkifogástalanabb változat.
-
-Ami a saját kezem munkája, azt szabadon felhasználhatóvá teszem, ami viszont
+Ami a saját kezem munkája, az szabadon felhasználhatóvá, ami viszont
 a GNU Public Licence (GPL, ©1992) alá tartozik, az továbbra is az marad.
 József Attila minden műve a közkincs részét képezi 2007 óta.
 

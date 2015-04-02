@@ -24,7 +24,7 @@ a:visited { color: #000; }
 a:hover, a:focus { color: #000; outline: thin dotted; }
 a:active { color: #54a2de; position: relative; top: 1px; }
 
-h1 a, footer a { border: none; }
+h1 a, { border: none; }
 
 a:hover, a:active { outline: 0; }
 
