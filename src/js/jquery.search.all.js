@@ -1034,7 +1034,18 @@ var muvek = {
   'versek/osszes-vers.html#sokasag-te':'Sokaság, te',
   'versek/osszes-vers.html#archeologia':'Archeologia',
   'versek/osszes-vers.html#aeternitas':'Aeternitas',
-  'versek/osszes-vers.html#agnes':'Mese Lelle emlékére Áginak'
+  'versek/osszes-vers.html#agnes':'Mese Lelle emlékére Áginak',
+  'irasok/a-masodik-kolteszetbolcselet.html#a-masodik-kolteszetbolcselet':'A második költészetbölcselet',
+  'irasok/besorolatlan-ketes-hitelu.html#besorolatlan-ketes-hitelu':'Besorolatlan és kétes hitelű írások',
+  'irasok/hegel-marx-freud.html#hegel-marx-freud-oldal':'Hegel – Marx – Freud köré tartozó szövegek',
+  'irasok/ihlet-es-nemzet.html#ihlet-es-nemzet-oldal':'Ihlet és nemzet, írások',
+  'irasok/irasok-1923-28.html#irasok-1923-28':'1923—28 írásai',
+  'irasok/irasok-1928-30.html#irasok-1928-30':'1928—30 írásai',
+  'irasok/irasok-1930-37.html#irasok-1930-37':'1930—37 írásai',
+  'irasok/irasok-1930.html#irasok-1930':'1930 írásai',
+  'irasok/irodalom-es-szocializmus.html#irodalom-es-szocializmus-oldal':'Irodalom és szocializmus köré épülő szövegek',
+  'irasok/szepproza.html#szepproza':'Széppróza',
+  'irasok/tarsszerzo.html#tarsszerzo':'Társszerzői szöveg'
 }
 $(document).ready(function(){
   $("#alkeres").keyup(function(e){

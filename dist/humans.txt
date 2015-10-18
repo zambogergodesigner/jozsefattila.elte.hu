@@ -1,40 +1,220 @@
-Kedves Olvasó!
+﻿KIADÁSI MEGJEGYZÉSEK
 
-Ezen a digitális kiadáson több mint 2 éven át dolgoztam.
+Ebben a könyvben szerepelnek József Attila 1930—1937 közötti tanulmányainak
+és cikkeinek legújabb kritikai kiadásának szövegei. Itt egyesítve vannak ezek
+a kezdetektől 1930-ig tartó kritikai szövegekkel.
 
-Szerettem volna, ha ezek a versek a lehető legszebb és legteljesebb
-formában lennének elérhetőek mindenki számára.
+Akik a cikkek és tanulmányok jegyzeteit és a kéziratok képeit szeretnék
+tanulmányozni, azok ezt ezeken a linkeken tehetik meg:
 
-Sajnálom, hogy nem könyv, aminek fogása, illata van, de
-így legalább ingyenes, és nyugtasson meg mindenkit, hogy
-szívem-lelkem benne van.
-
-Ha bármi elírást, hibát talál a versekben, írjon egy levelet!
-Sajnos én is csak ember vagyok és előfordul, hogy hibázom.
-
-Köszönöm.
-
-„Azok a könyvek, melyek a könyvtárak polcain szunnyadnak, még nem készek,
-vázlatosak, magukban semmi értelmük. Ahhoz, hogy értelmet kapjanak, te kellesz, olvasó!”
-
-– Kosztolányi Dezső
+http://magyar-irodalom.elte.hu/ja/tartalom.htm
+http://textus.elte.hu/ja/textus.html
 
 
-/* KÉSZÍTŐ */
 
-Név: Zámbó Gergő
-Elérhetőség: zambo_gergo@hotmail.com
+A versek Stoll Bélának az Akadémiai Kiadónál 1984-ben megjelent kritikai kiadásán
+alapulnak, de a már meglévő elektronikus változat szöveghibáit javítottuk és
+kiemelt figyelmet fordítottunk a tipográfiára.
 
-/* WEBLAP */
+A lelkes műkedvelőknek kezdésnek a válogatott versek szekciót javasoljuk.
+A költőről és munkásságáról az egyik legrészletesebben itt lehet olvasni:
 
-Szabványok: HTML5, CSS3
-Felhasznált kódok: jQuery, HTML5 Boilerplate, Normalize.css
+http://magyar-irodalom.elte.hu/sulinet/igyjo/setup/portrek/jozsefa/jozsefat.htm
+
+
+
+Azok az oldalak, ahol a versek és az írások együtt, egy oldalon szerepelnek,
+nem pedig külön oldalakon, nagyban megkönnyítik a szövegrészletek keresését.
+
+Ez az elektronikus könyv a következő eddig megjelent
+kiadások egybedolgozása:
+
+
+
+
+
+1. József Attila Összes tanulmánya és cikke. Szövegek, 1923–1930.
+http://magyar-irodalom.elte.hu/ja/tartalom.htm
+
+2.0. verzió, 2001
+
+Ez az ELTE Bölcsészettudományi Karán, a Reneszánszkutatások Posztgraduális
+Központjában, illetve a Bölcsészettudományi Informatika Önálló Programban készült.
+
+/* FŐSZERKESZTŐ */
+Horváth Iván
+
+/* SZERKESZTŐK */
+Devescovi Balázs, Golden Dániel
+
+/* SAJTÓ ALÁ RENDEZTE */
+Barta András, Hegedüs Orsolya, Kis Zsuzsanna, Serény Zsuzsanna, Tóth Ákos
+
+/* KIADÓ SZERKESZTŐ */
+Tóth Tünde
+
+/* TECHNIKAI SZERKESZTŐ */
+Horváth Takács Balázs
+
+/* MUNKATÁRSAK */
+Koltai Réka, Mán-Várhegyi Réka, Miklós Anna, Nyikos Örsi,
+Szűcs Zoltán, Teslár Ákos, Tóth Csilla, Vaderna Gábor, Vaskó Péter.
 
 /* KÖSZÖNET */
+Köszönetet mondunk Tverdota Györgynek, aki az Osiris Kiadónál 1995-ben megjelent
+első kötet (1923-1930) jegyzeteit és kommentárjait írta, valamint akkori lektorainknak,
+Szabolcsi Miklósnak és Vadai Istvánnak. A Petőfi Irodalmi Múzeum Kézirattára vezetőinek,
+Nagy Csabának és Vargha Katalinnak, illetve a kézirattulajdonos Kiss Ferencnek,
+néhai Cserépfalvi Imrének és a Font Antikváriumnak, amiért lehetővé tették gyűjteményeik
+felhasználását. Stoll Bélának, Szőke Györgynek, Füleki Annának, Herner Jánosnak,
+Machan Zsuzsának és Margitta Nórának a munkánkhoz nyújtott, nehezen
+nélkülözhető segítségért. A Soros Alapítványnak, mely támogatta Horváth Iván
+és Tverdota György munkáját. Az Eötvös Loránd Tudományegyetem Bölcsészettudományi Kara
+Hallgatói Önkormányzatának, mely ösztöndíjjal segítette Barta András, Golden Dániel,
+Hegedüs Orsolya, Kis Zsuzsanna és Serény Zsuzsanna József Attila-kutatásait.
 
-József Attilának
-Szabó Dávidnak
-Tóth Ernőnek
-a magyar tanáromnak
-az irodalomnak
-és az olvasónak
+A hálózati kiadás elkészítését az Országos Műszaki Fejlesztési Bizottság támogatta.
+
+© Gépeskönyv, 1999-2001
+© Horváth Iván
+
+
+
+
+
+2. József Attila Összes tanulmánya és cikke. Szövegek, 1930–1937.
+http://textus.elte.hu/ja/textus.html
+
+1.0. kiadás, 2012.
+
+/* SZERZŐI JOGI NYILATKOZAT */
+József Attila életműve nem áll szerzői jogvédelem alatt, de ez a szövegkritikai kiadás
+(a – korábban olykor ismeretlen – szövegforrások feltárása, a szövegváltozatok
+pontos átírása, majd tudományos következtetések révén a hiteles szöveg megállapítása
+és korszerű közlési módjának kikísérletezése) nem köztulajdon, hanem a GNU Public
+Licence (GPL, ©1992) hatálya alá tartozó szellemi termék. Ezért a következő
+Megjegyzés szövegétől elválasztani nem szabad.
+
+Mindenkinek joga van arra, hogy ezt az összeállítást egészében vagy részben,
+bármely tetszőleges eszköz igénybevételével, akár papírra, akár más adathordozóra lemásolja,
+ott korlátozásmentesen tárolja, ingyenesen terjessze, vagy pénzért árusítsa, feltéve,
+hogy ezt a címleírást, ezt a copyright-ot és ezt az engedélyező megjegyzést minden részleges
+vagy teljes másolati példányon jól olvasható módon feltünteti. Engedélyezetlen módosított
+változatokat nem szabad készíteni. Fordítások készítése nem számít módosításnak.
+
+/* FŐSZERKESZTŐ */
+Horváth Iván
+
+/* SZERKESZTŐK */
+Fuchs Anna
+
+/* SAJTÓ ALÁ RENDEZTE */
+Bognár Péter, Buda Borbála Sára, Devescovi Balázs, Golden Dániel,
+
+/* PROGRAMOZÓ */
+Király Péter
+
+Horváth Iván © 1999–2012
+
+
+
+
+
+3. József Attila válogatott versei
+http://mek.oszk.hu/05500/05570/html/
+
+/* KÖZZÉTETTE */
+Stoll Béla
+
+A negyven verset tartalmazó válogatás a Neumann-ház
+Irodalmi Szerkesztőségében készült.
+
+
+
+
+
+4. Jószef Attila összes költeménye
+http://www.mek.oszk.hu/00700/00708/html/
+
+5. József Attila: Szabad-ötletek jegyzéke
+http://www.mek.oszk.hu/00700/00706/00706.htm
+
+6. József Attila, Novellák, önvallomások, műfordítások, Pótlások az 1–3.
+kötetekhez, kiad. Fehér Erzsébet, Szabolcsi Miklós,
+Bp., Akadémiai Kiadó, 1967 (József Attila Összes Művei, 4), 313 l.
+
+Ebből a kiadásból egy prózafordítás és a szépprózai írások lettek beemelve.
+
+
+
+
+
+Ami a saját kezem munkája (forráskód, illusztrációk), az szabadon felhasználható,
+ami viszont a GNU Public Licence (GPL, ©1992) alá tartozik, arra továbbra is ez
+a licence érvényes.
+
+József Attila minden műve 2007 óta a közkincs része.
+
+Szerettem volna, hogy ezek a versek és írások a lehető legszebb
+és legteljesebb formában legyenek elérhetőek mindenki számára.
+
+
+
+/* A KIADÁST KÉSZÍTETTE */
+Zámbó Gergő
+
+/* WEBLAP */
+Szabványok: HTML5, CSS3
+Felhasznált programok: jQuery, HTML5 Boilerplate, Normalize.css
+
+/* KÖSZÖNET */
+Horváth Ivánnak a lehetőségért, Szabó Dávidnak (✝) a programozásban nyújtott önzetlen segítségért.
+
+▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░░░░░░░░░▒▒▒▒▒╢▓▓▓▌▄▓▓█▓╣╢▄▓▓▄▒▄▄▒▒▒░░░░░░░░░░░░░░░░░░░░░░░░░░
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░░░░░░▒@╢▓▓▒▐▓████████████████████▓▒░░░░░░░░░░░░░░░░░░░░░░░░░
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░▒░░░░░░▒▒▓▓████████████████████████████▓▒░░░░░░░░░░░░░░░░░░░░░░░
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░▒▒▒╢╢▓██████████████████████████████▓▒░░░░░░░░░░░░░░░░░░░░░░
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓▓█████████████████████████████████▓▒░░░░░░░░░░░░░░░░░░░░░
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░▒╢▓▓████████████████████████████████████▓p░░░░░░░░░░░░░░░░░░░░
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░▒▒▒▓██████████████████████████████████████▓▒░░░░░░░░░░░░░░░░░░░
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░▒▒████████████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓███████████▓▒░░░░░░░░░░░░░░░░░░
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░▒▒▒█████████▓▓▓▓╣╢╢╢▓▓▒╢╬╣▒▒▒▒╢╢╢█████████▓▒▒░░░░░░░░░░░░░░░░░░
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░▒▒░▓███████▓▓▓▒▒▒▒▒▒▒▒▒╬▒▒▒▒▒▒▒╢▒╢▓████████▒░░░░░░░░░░░░░░░░░░░
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░▐█████▓▓▓▓╣╣▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒╢███████▌▒░░░░░░░░░░░░░░░░░░░
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░▐█████▓▓▓╣╣╣▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒╢╫▓██████▌░░░░░░░░░░░░░░░░░░░░
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░▒█████▓▓▓▓╣╢▒▒▒▒▒▒▒▒▒▒▒▒▒▒╢▓▄╢╢╣▓██████▌░░░░░░░░░░░░░░░░░░░░
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░▀██████▓▓██▓▓▓╣▒▒▒▒╢▓▓▓██▓▓▀▀▀▓╣▓██████░░░░░░░░░░░░░░░░░░░░
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░░╟█████▓▓▓███▓▓▓▓▓▀▓▒╢▓▓▓█▓▓▓▓▓▓▄█▓▓██▀▓▒░░░░░░░░░░░░░░░░░░░
+▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░░░░░██▓██▓▓▓▓▓╣▓▓▓▓▒▒▒▓╢╢▓▓╣╣╢╣▒▒▒▒▒╢█▒▒▒╢▒░░░░░░░░░░░░░░░░░░░
+▒▒▒▒▒▒▒▒▒▒░▒▒░░░░░░░░░▓▓█▓▓▓╣╣╣╢▓▓▓▓▓╣▒▒▒▒╣╢╢╣╣▒▒▒▒▒▒╣╫█▒▒▒▒░░░░░░░░░░░░░░░░░░░░
+▒▒▒▒▒▒▒▒▒▒▒░░░░░░░░░░░░▓█▓▓▓╣▒▒▒╣▓▓▓╣▒▒▒▒▒▒╢╢▒▒▒░░▒▒╢╢▓█▒▒▒░░░░░░░░░░░░░░░░░░░░░
+▒▒▒▒▒▒▒▒▒▒▒░░░░░░░░░░░░░▓▓▓▓▒▒▒╢▓▓▓▓▒▒▒▒▒▒@▒▒▒▒╣▒▒▒▒▒╢▓▒▒▒░░░░░░░░░░░░░░░░░░░░░░
+▒▒▒▒▒▒▒▒▒▒░░░░░░░░░░░░░░╙▓▓▓▒▓▓▓▓▓▓▓▓╣╣▒╬╬▒╢╢▒▒▒▒▓▒▒╢╣Ñ▒░░░░░░░░░░░░░░░░░░░░░░░░
+▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░░░░░░░░▓▓▒╢▒▓▓▓▓╣╣╢╣╢▒Ñ╣╢╢▓▓╣▒▒▒╢╢▓░░░░░░░░░░░░░░░░░░░░░░░░░░
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░░░░░░░▐▓▓╣╣▒▓▓@▒▒░▒░░░¿▒╬▀▒▒▒▒╢╢▓░░░░░░░░░░░░░░░░░░░░░░░░░░░
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░░░░░░░░▐▓▓▓╣╢▓▓╣╢╣╢▒▒▒▒╣▒▒▒╢╢╢▓▓▒░░░░░░░░░░░░░░░░░░░░░░░░░░░
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒░▒▒▒░░░░░░░░░▐▓▓▓▓▓╢╢╣▒▒╢▒▒▒▒▒▒╢╢╫▓▓▓▒░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░░░░╫█▓▓▓█▓▓▓▓╢╫▓▓╣▒▒╣╢╢▓▓▓▒▒▒░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░▒░░░░▐▓█▓▓▓▓██▓▓▓▓▓╣▒╣╣▓▓▓▓▀▒▒▒▓╢░░░░░░░░░░░░░░░░░░░░░░░░░░░
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░▒░▓▓▓▓█▓▓▓▓▓▓██▓▓▓▓▓▓▓▓▒▒▒▒▒▄▌╣╣░░░░░░░░░░░░░░░░░░░░░░░░░░
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▄▄▓███▓▓▓▓▓▓▓╣▓▓▓▓╢▒▒▒▒▒▒▒▒▒▒▒▒▓█▓╣╣@▄░░░░░░░░░░░░░░░░░░░░░░░░
+▒▒▒▒▒▒▒▒▒▒▒▒▒▄▄█████████▓▓▓▓▓▓▓▓▓▓▓▓╣╣▒▒▒▒▒▒▒▒▒▒▓█▌▓╣╢╢▓█▓▄▄░░░░░░░░░░░░░░░░░░░░
+▒▒▒▒▒▒▒▒▄▄▓████████████▌▓▓▓▓▓▓▓▓▓▓▓╣╢╣╢╣╢▒▒▒▒▒▓██▓▒╣╢╣╢╫▓██▓█▓▓▓▄░░░░░░░░░░░░░░░
+▒▒▒▄▓██████████████████▓▓▓▓▓▓█▓▓▓▓╢╢╣▒▒▒▒▒▒▒▓▓██▓▓▓▄▒╣╢╣▒████▓▓████▓▄░░░░░░░░░░░
+███████████████████████▓▓▓███▓██▓▓███▄▄▄▄▄▄████▓▓╣▓███▒╣▒▓████████████▓▓▄░░░░░░░
+███████████████████████▓▓████▓▓█▓▓▓▓██████████▌╢▓▓▓████▄╣╬▓███████████████▓▄░░░░
+███████████████████████▓█████████▓▓███████████▓▓█▓███████▓▓████████████████▓▓▓▄░
+██████▓▓███████████████████████████████████████▓██████████▓██████████████████▓▓▓
+██████████████████████████████████████████████████████████████████▓█████████████
+████████████████████████████████████████████████████████▓█████████▓█████▓▓██████
+█████████████████████████████████████████████████████▓▓████████▓██▓█████████▓███
+██████████████████████████▓███████████████████████▓▓▓██████████▓▓███████████████
+
+Nyugodj békében.
+
+/* SZENTIMENTÁLIS */
+Bár sosem fognak rájönni, a sorok között titkon elrejtettem volt, vagy éppen mindenkori kedveseim neveit.
+
+„… és így az élet nem a munkáról szól, hanem a munka szól az életről.”
+
+“I suspect that under that cynical shell you are at heart a sentimentalist.” – Captain Renault, Casablanca
